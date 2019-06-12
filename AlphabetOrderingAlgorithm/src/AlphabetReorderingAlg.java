@@ -70,44 +70,63 @@ public abstract class AlphabetReorderingAlg {
      */
     private static boolean assignToXs(Mapping map, CharExpFactPair facts, ArrayList<String> Xs) {
         boolean good = true;
-        for(String fact : facts.getCountFactors()){
+        for (String fact : facts.getCountFactors()) {
             int lf = fact.length();
             List<String> xsBlock = Xs.subList(0, lf);
             Xs = new ArrayList<>(Xs.subList(lf, Xs.size()));
-            ExpAndBLock expAndXBlock = new ExpAndBLock(fact, xsBlock);
+            List<ExpAndBlock> zippedExpAndXs = new ArrayList<>();
+            for (int i = 0; i < fact.length(); i++) {
+                int factInt = Integer.parseInt(String.valueOf(fact.charAt(i)));
+                zippedExpAndXs.add(new ExpAndBlock(factInt, xsBlock.get(i)));
+            }
             // We map each exponent to their set of x blocks
-            Map<String, String> expXsDict = new HashMap<String, String>();
-            for(Map.Entry<String, String> expXPair: expXsDict.entrySet()){
-                String key = expXPair.getKey();
-                String value = expXPair.getValue();
+            Map<Integer, String> expXsDict = new HashMap<>();
+            for (ExpAndBlock pair : zippedExpAndXs) {
+                int exponent = pair.getExponent();
+                String xBlock = pair.getxBlock();
                 //checks if exponent is in the hashMap
-                if(expXsDict.containsKey(key)){
-                    expXsDict.replace(key, expXsDict.get(key) + value);
-                }
-                else{
-                    expXsDict.put(key, value);
+                if (expXsDict.containsKey(exponent)) {
+                    expXsDict.replace(exponent, expXsDict.get(exponent) + xBlock);
+                } else {
+                    expXsDict.put(exponent, xBlock);
                 }
             }
+            //In reverse numeric order of exponents (greatest first) is organized
+            Comparator comparator = new Comparator<Integer>() {
+
+                @Override
+                public int compare(Integer o1, Integer o2) {
+                    return o2.compareTo(o1);
+                }
+            };
+            //Sorts by key automatically
+            TreeMap<Integer, String> treeMap = new TreeMap<>(comparator);
+            treeMap.putAll(expXsDict);
+            int e = treeMap.
+            if(){
+
+            }
         }
+        System.out.println(tree);
         return good;
     }
 
     //Used to iterate over pairs of exponents and its substring block
-    private class ExpAndBLock{
+    private static class ExpAndBlock {
 
-        private String exponent;
-        private List<String> xBlock;
+        private int exponent;
+        private String xBlock;
 
-        public ExpAndBLock(String exponent, List<String> xBlock) {
+        public ExpAndBlock(int exponent, String xBlock) {
             this.exponent = exponent;
             this.xBlock = xBlock;
         }
 
-        public String getExponent() {
+        public int getExponent()  {
             return exponent;
         }
 
-        public List<String> getxBlock() {
+        public String getxBlock() {
             return xBlock;
         }
     }
