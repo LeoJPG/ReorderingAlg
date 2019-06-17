@@ -92,6 +92,16 @@ public class Mapping {
         }
     }
 
+    public int lookUp(char x){
+        Letter lookLetter =  new Letter(x);
+        if(letters.contains(lookLetter)){
+            return letters.get(letters.indexOf(lookLetter)).getAlphabetLocation();
+        }
+        else{
+            return (char) -1;
+        }
+    }
+
     @Override
     public String toString() {
         return "Mapping{" +

@@ -3,7 +3,7 @@ import java.util.*;
 public abstract class AlphabetReorderingAlg {
 
 
-    public static String reorder(String word, Mapping map, boolean LocNoBacktrack){
+    public static String reorder(String word, Mapping map, boolean noBacktrack){
         //Makes exponent parikh vector
         ExponentParikhVector expParikhVect = new ExponentParikhVector(word);
         //Prints the EPV
@@ -21,12 +21,22 @@ public abstract class AlphabetReorderingAlg {
             map.assign(pri.getCharacter());
             ArrayList<String> xs = getXsAfterChar(word, pri.getCharacter());
             good = assignToXs(map, pri, xs);
+            if(good || noBacktrack){
+                break;
+            }
+            else{
+                map.clear();
+            }
+        }
+        if (good || noBacktrack){
+            if (strin)
+        }
+        else{
+            
         }
 
         return factorsEPV.toString();
     }
-
-
 
 
 //-------------------------------------------------------------------------
@@ -102,12 +112,46 @@ public abstract class AlphabetReorderingAlg {
             //Sorts by key automatically
             TreeMap<Integer, String> treeMap = new TreeMap<>(comparator);
             treeMap.putAll(expXsDict);
-            int e = treeMap.
-            if(){
-
+            if(treeMap.values().size() == 1){
+                for(char x : treeMap.firstEntry().getValue().toCharArray()){
+                    map.assign(x);
+                }
             }
+            else{
+                String treeMapArray[] = treeMap.values().toArray(new String[0]);
+                for (int i = 1; i < treeMap.values().size(); i++){
+                    String laterVal = treeMapArray[i];
+                    good = true;
+                    if(laterVal.length() > treeMapArray[0].length()){
+                        // problem because no longer Lyndon word
+                        good = false;
+                        break;
+                    }
+                    else{
+                        for(int j = 0; j < treeMapArray[0].length(); j++){
+                            char x = treeMapArray[0].charAt(j);
+                            char y = laterVal.charAt(j);
+                            if (x == y){
+                                map.assign(x);
+                            }
+                            else{
+                                map.assign(x);
+                                map.assign(y);
+                                if (map.lookUp(x) > map.lookUp(y)){
+                                    good = false; //inconsistent
+                                    // we have made an assignment of difference so can stop
+                                }
+                                break;
+                            }
+                        }
+                    }
+                    if(!good){
+                        return false;
+                    }
+                }
+            }
+
         }
-        System.out.println(tree);
         return good;
     }
 
