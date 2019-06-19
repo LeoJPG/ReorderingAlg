@@ -2,6 +2,8 @@ public class Main {
 
     public static void main(String args[]){
         String word = "aabdcaacdaabdbabaabcaacaacab";
+        String word2 = "a";
+        //String wordFasta = new ReadFastaToString();
         char[] order = "abcdefghijklmnopqrstuvwxyz".toCharArray();
         /*
         Duval duval = new Duval();
@@ -18,6 +20,11 @@ public class Main {
         /
         */
         Mapping mapping = new Mapping();
-        System.out.println(AlphabetReorderingAlg.reorder(word, mapping, false));
+        String reorderedNoBacktrack = AlphabetReorderingAlg.reorder(word2, mapping, false);
+        String reorderedWithBacktrack = AlphabetReorderingAlg.reorder(word, mapping, true);
+        System.out.println(reorderedNoBacktrack);
+        System.out.println(reorderedWithBacktrack);
+        System.out.println(LyndonFactorizer.factorize(reorderedNoBacktrack, false));
+        System.out.println(LyndonFactorizer.factorize(word, false));
     }
 }

@@ -1,4 +1,5 @@
 import java.util.*;
+import java.util.regex.Pattern;
 
 public abstract class AlphabetReorderingAlg {
 
@@ -15,11 +16,13 @@ public abstract class AlphabetReorderingAlg {
         boolean good = false;
         Collections.sort(factorsEPV);
 
+        String stringPrefix = "";
+        ArrayList<String> xs = new ArrayList<>();
         for(CharExpFactPair pri : factorsEPV){
-            String stringPrefix = beforeChar(word, pri.getCharacter());
+            stringPrefix = beforeChar(word, pri.getCharacter());
             map.reset(stringPrefix.length());
             map.assign(pri.getCharacter());
-            ArrayList<String> xs = getXsAfterChar(word, pri.getCharacter());
+            xs = getXsAfterChar(word, pri.getCharacter());
             good = assignToXs(map, pri, xs);
             if(good || noBacktrack){
                 break;
@@ -28,14 +31,36 @@ public abstract class AlphabetReorderingAlg {
                 map.clear();
             }
         }
+
         if (good || noBacktrack){
-            if (strin)
+            if (!stringPrefix.isEmpty()){
+                int n = map.getAlphabetLoc() - 'a';
+                map.reset(0);
+                reorder(stringPrefix, map, false);
+                map.reset(n);
+            }
+            map.assignAll(word);
+            String reordered = map.mapString(word);
+            return reordered;
         }
         else{
-            
+            char uniqueChar = factorsEPV.get(0).getCharacter();
+            map.clear();
+            stringPrefix = beforeChar(word, uniqueChar);
+            map.reset(stringPrefix.length());
+            map.assign(uniqueChar);
+            ArrayList<String> Xs = getXsAfterChar(word, uniqueChar);
+            assignToXs(map, factorsEPV.get(0), Xs);
+            if (!stringPrefix.isEmpty()){
+                int n = map.getAlphabetLoc();
+                map.reset(0);
+                reorder(stringPrefix, map, false);
+                map.reset(n);
+            }
+            map.assignAll(word);
+            String reordered = map.mapString(word);
+            return reordered;
         }
-
-        return factorsEPV.toString();
     }
 
 
@@ -57,9 +82,14 @@ public abstract class AlphabetReorderingAlg {
      * (ignoring any prefix to the first occurrence of char)
      */
     private static ArrayList<String> getXsAfterChar(String s, char aChar) {
-        ArrayList<String> resultList = new ArrayList<>();
+        /*ArrayList<String> resultList = new ArrayList<>();
         String[] components =  s.split(aChar + "+");
         resultList.addAll(Arrays.asList(components));
+        return resultList;*/
+        Pattern pattern = Pattern.compile(aChar+"+");
+        String[] result = pattern.split(s);
+        ArrayList<String> resultList = new ArrayList<String>();
+        Collections.addAll(resultList,result);
         return resultList;
      }
 

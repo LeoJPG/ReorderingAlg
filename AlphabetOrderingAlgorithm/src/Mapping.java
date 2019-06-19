@@ -75,10 +75,10 @@ public class Mapping {
         StringBuilder out = new StringBuilder();
         for(char character : string.toCharArray()){
             if (!letters.contains(new Letter(character))) {
-                assign(character);
+                this.assign(character);
             }
             Letter newLetter = letters.get(letters.indexOf(new Letter(character)));
-            out.append(newLetter.getAlphabetLocation());
+            out.append(newLetter.getLetter());
         }
         return out.toString();
     }
@@ -100,6 +100,10 @@ public class Mapping {
         else{
             return (char) -1;
         }
+    }
+
+    public int getAlphabetLoc() {
+        return alphabetLoc;
     }
 
     @Override
