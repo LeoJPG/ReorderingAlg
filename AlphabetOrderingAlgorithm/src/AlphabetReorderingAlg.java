@@ -82,14 +82,13 @@ public abstract class AlphabetReorderingAlg {
      * (ignoring any prefix to the first occurrence of char)
      */
     private static ArrayList<String> getXsAfterChar(String s, char aChar) {
-        /*ArrayList<String> resultList = new ArrayList<>();
-        String[] components =  s.split(aChar + "+");
-        resultList.addAll(Arrays.asList(components));
-        return resultList;*/
-        Pattern pattern = Pattern.compile(aChar+"+");
-        String[] result = pattern.split(s);
-        ArrayList<String> resultList = new ArrayList<String>();
+        String[] result = s.split(aChar + "+");
+        ArrayList<String> resultList = new ArrayList<>();
         Collections.addAll(resultList,result);
+        //If the pattern is at the beginning the first item in the list is an empty string. This gets rid of it
+        if(result[0].equals("")){
+           resultList = new ArrayList<>(resultList.subList(1, resultList.size()));
+        }
         return resultList;
      }
 

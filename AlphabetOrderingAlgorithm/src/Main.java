@@ -3,6 +3,7 @@ public class Main {
     public static void main(String args[]){
         String word = "aabdcaacdaabdbabaabcaacaacab";
         String word2 = "a";
+        String s = "zzjhjhzzh";
         //String wordFasta = new ReadFastaToString();
         char[] order = "abcdefghijklmnopqrstuvwxyz".toCharArray();
         /*
@@ -20,11 +21,10 @@ public class Main {
         /
         */
         Mapping mapping = new Mapping();
-        String reorderedNoBacktrack = AlphabetReorderingAlg.reorder(word2, mapping, false);
-        String reorderedWithBacktrack = AlphabetReorderingAlg.reorder(word, mapping, true);
+        String reorderedNoBacktrack = AlphabetReorderingAlg.reorder(s, mapping, false);
+        String reorderedWithBacktrack = AlphabetReorderingAlg.reorder(s, mapping, true);
         System.out.println(reorderedNoBacktrack);
         System.out.println(reorderedWithBacktrack);
         System.out.println(LyndonFactorizer.factorize(reorderedNoBacktrack, false));
-        System.out.println(LyndonFactorizer.factorize(word, false));
     }
 }
