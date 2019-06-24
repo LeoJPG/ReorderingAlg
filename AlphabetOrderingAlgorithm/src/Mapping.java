@@ -26,12 +26,16 @@ public class Mapping {
      * @param character character from the alphabet to be assigned
      */
     public void assign(char character){
+        System.out.print("alphaLOC: ");
+        System.out.println(alphabetLoc);
         Letter newLetter = new Letter(character);
-        if(!letters.contains(newLetter)){
-            newLetter.setAlphabetLocation(this.alphabetLoc);
-            letters.add(newLetter);
-            alphabetLoc += 1;
-        }
+        System.out.println("Contains: " + !letters.contains(newLetter));
+            if (!letters.contains(newLetter)) {
+                newLetter.setAlphabetLocation(this.alphabetLoc);
+                letters.add(newLetter);
+                System.out.println("NEW LETTER: " + newLetter.toString());
+                alphabetLoc += 1;
+            }
     }
 
     /**
@@ -55,7 +59,12 @@ public class Mapping {
      * @param n index
      */
     public void reset(int n){
-        alphabetLoc = 'a' + n;
+        int a = 'a';
+        System.out.print("I am the problem??????????: ");
+        System.out.println(a);
+        System.out.print("Or me?????????????: ");
+        System.out.println(n);
+        alphabetLoc = a + n;
     }
 
     /**
@@ -78,7 +87,8 @@ public class Mapping {
                 this.assign(character);
             }
             Letter newLetter = letters.get(letters.indexOf(new Letter(character)));
-            out.append(newLetter.getLetter());
+            out.append((char)newLetter.getAlphabetLocation());
+            System.out.println(out);
         }
         return out.toString();
     }
@@ -106,12 +116,16 @@ public class Mapping {
         return alphabetLoc;
     }
 
+
+
     @Override
     public String toString() {
-        return "Mapping{" +
-                "letters=" + letters +
-                ", alphabetLoc=" + alphabetLoc +
-                '}';
+        StringBuilder out = new StringBuilder();
+        out.append("The remapping of characters:\n");
+        for (Letter letter : letters){
+            out.append(letter.getLetter()).append("-->").append((char) letter.getAlphabetLocation()).append("\n");
+        }
+        return out.toString();
     }
 
     //---------------Letter class------------------------------------------------
@@ -148,6 +162,14 @@ public class Mapping {
     public int getAlphabetLocation() {
         return alphabetLocation;
     }
-}
+
+        @Override
+        public String toString() {
+            return "Letter{" +
+                    "letter=" + letter +
+                    ", alphabetLocation=" + alphabetLocation +
+                    '}';
+        }
+    }
 //---------------------------------------------------------------------------
 }

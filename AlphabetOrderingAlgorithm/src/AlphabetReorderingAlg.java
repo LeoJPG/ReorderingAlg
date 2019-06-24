@@ -18,12 +18,32 @@ public abstract class AlphabetReorderingAlg {
 
         String stringPrefix = "";
         ArrayList<String> xs = new ArrayList<>();
+        //System.out.println("prs: " + factorsEPV.toString());
         for(CharExpFactPair pri : factorsEPV){
-            stringPrefix = beforeChar(word, pri.getCharacter());
-            map.reset(stringPrefix.length());
+            stringPrefix = beforeChar(word, pri.getCharacter()); //PROBLEEEEEEM
+            HashSet<String> set = new HashSet<String>(Arrays.asList(stringPrefix.split("")));
+            set.remove("");
+            //System.out.println(set.toString());
+            int lengthForReset = set.size();
+            System.out.print("length for reset: ");
+            System.out.println(lengthForReset);
+            System.out.println("string prefix: " + stringPrefix);
+            System.out.print("Map alphabetLOC before reset: ");
+            System.out.println(map.getAlphabetLoc());
+            System.out.print("string prefix length!!!!!!!!!!!: ");
+            System.out.println(stringPrefix.length());
+            map.reset(lengthForReset);
+            System.out.print("Map alphabetLOC after reset: ");
+            System.out.println(map.getAlphabetLoc());
+            System.out.println("Map before: " + map);
+            System.out.println("Character to assign: " + pri.getCharacter());
             map.assign(pri.getCharacter());
+            System.out.println("Map after: " + map);
+            System.out.println("The word is ------------> " + word);
             xs = getXsAfterChar(word, pri.getCharacter());
+            System.out.println("xs now: " + xs);
             good = assignToXs(map, pri, xs);
+            System.out.println(good);
             if(good || noBacktrack){
                 break;
             }
@@ -86,9 +106,7 @@ public abstract class AlphabetReorderingAlg {
         ArrayList<String> resultList = new ArrayList<>();
         Collections.addAll(resultList,result);
         //If the pattern is at the beginning the first item in the list is an empty string. This gets rid of it
-        if(result[0].equals("")){
-           resultList = new ArrayList<>(resultList.subList(1, resultList.size()));
-        }
+        resultList = new ArrayList<>(resultList.subList(1, resultList.size()));
         return resultList;
      }
 
@@ -109,6 +127,9 @@ public abstract class AlphabetReorderingAlg {
      */
     private static boolean assignToXs(Mapping map, CharExpFactPair facts, ArrayList<String> Xs) {
         boolean good = true;
+        System.out.println(facts);
+        System.out.println("Xs: " + Xs.toString());
+        System.out.println(map);
         for (String fact : facts.getCountFactors()) {
             int lf = fact.length();
             List<String> xsBlock = Xs.subList(0, lf);
@@ -119,54 +140,71 @@ public abstract class AlphabetReorderingAlg {
                 zippedExpAndXs.add(new ExpAndBlock(factInt, xsBlock.get(i)));
             }
             // We map each exponent to their set of x blocks
-            Map<Integer, String> expXsDict = new HashMap<>();
+            Map<Integer, ArrayList<String>> expXsDict = new HashMap<>();
             for (ExpAndBlock pair : zippedExpAndXs) {
                 int exponent = pair.getExponent();
                 String xBlock = pair.getxBlock();
                 //checks if exponent is in the hashMap
                 if (expXsDict.containsKey(exponent)) {
-                    expXsDict.replace(exponent, expXsDict.get(exponent) + xBlock);
+                    ArrayList<String> newXBlock = new ArrayList<>(expXsDict.get(exponent));
+                    newXBlock.add(xBlock);
+                    expXsDict.replace(exponent, newXBlock);
                 } else {
-                    expXsDict.put(exponent, xBlock);
+                    ArrayList<String> newXBlock = new ArrayList<>();
+                    newXBlock.add(xBlock);
+                    expXsDict.put(exponent, newXBlock);
                 }
             }
             //In reverse numeric order of exponents (greatest first) is organized
-            Comparator comparator = new Comparator<Integer>() {
-
-                @Override
-                public int compare(Integer o1, Integer o2) {
-                    return o2.compareTo(o1);
-                }
-            };
+            Comparator comparator = Comparator.reverseOrder();
             //Sorts by key automatically
-            TreeMap<Integer, String> treeMap = new TreeMap<>(comparator);
+            TreeMap<Integer, ArrayList<String>> treeMap = new TreeMap<>(comparator);
             treeMap.putAll(expXsDict);
-            if(treeMap.values().size() == 1){
-                for(char x : treeMap.firstEntry().getValue().toCharArray()){
+            Iterator valuesIterator = treeMap.values().iterator();
+            // debug-------------------------------------------------------
+            //System.out.print("iterator: ");
+            //System.out.println("sorted exponents: " + treeMap);
+            //System.out.println("e: " + expXsDict.keySet());
+            //System.out.println("X_vals: " + expXsDict.values());
+            //System.out.println("first: " + treeMap.firstEntry());
+            //--------------------------------------------------------------
+            ArrayList<String> xVals = (ArrayList<String>) valuesIterator.next();
+            if(xVals.size() == 1){
+                for(char x : xVals.get(0).toCharArray()){
                     map.assign(x);
                 }
             }
             else{
-                String treeMapArray[] = treeMap.values().toArray(new String[0]);
-                for (int i = 1; i < treeMap.values().size(); i++){
-                    String laterVal = treeMapArray[i];
+                for (int i = 1; i < xVals.size(); i++){
+                    String laterVal = xVals.get(i);
                     good = true;
-                    if(laterVal.length() > treeMapArray[0].length()){
+                    if(laterVal.length() > xVals.get(0).length()){
                         // problem because no longer Lyndon word
+                        System.out.println("1: here is where i go");
                         good = false;
                         break;
                     }
                     else{
-                        for(int j = 0; j < treeMapArray[0].length(); j++){
-                            char x = treeMapArray[0].charAt(j);
+                        int length;
+                        if (laterVal.length() >= xVals.get(0).length()){
+                            length = xVals.get(0).length();
+                        }
+                        else{
+                            length = laterVal.length();
+                        }
+                        for(int j = 0; j < length; j++){
+                            char x = xVals.get(0).charAt(j);
                             char y = laterVal.charAt(j);
+                            //System.out.println("x: " + x + "\n" + "y: " + y);
                             if (x == y){
                                 map.assign(x);
                             }
                             else{
                                 map.assign(x);
                                 map.assign(y);
+                                //System.out.println(map.lookUp(x) > map.lookUp(y));
                                 if (map.lookUp(x) > map.lookUp(y)){
+                                    System.out.println("2: here is where i go");
                                     good = false; //inconsistent
                                     // we have made an assignment of difference so can stop
                                 }
@@ -175,6 +213,7 @@ public abstract class AlphabetReorderingAlg {
                         }
                     }
                     if(!good){
+                        System.out.println("3: here is where i go");
                         return false;
                     }
                 }

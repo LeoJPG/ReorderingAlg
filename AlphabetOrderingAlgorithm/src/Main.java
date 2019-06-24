@@ -21,10 +21,12 @@ public class Main {
         /
         */
         Mapping mapping = new Mapping();
-        String reorderedNoBacktrack = AlphabetReorderingAlg.reorder(s, mapping, false);
-        String reorderedWithBacktrack = AlphabetReorderingAlg.reorder(s, mapping, true);
+        String reorderedNoBacktrack = AlphabetReorderingAlg.reorder(word, mapping, false);
+        //mapping = new Mapping();
+        //String reorderedWithBacktrack = AlphabetReorderingAlg.reorder(word, mapping, true);
+        //System.out.println(reorderedWithBacktrack);
         System.out.println(reorderedNoBacktrack);
-        System.out.println(reorderedWithBacktrack);
+        //System.out.println(LyndonFactorizer.factorize(reorderedWithBacktrack, false));
         System.out.println(LyndonFactorizer.factorize(reorderedNoBacktrack, false));
     }
 }
