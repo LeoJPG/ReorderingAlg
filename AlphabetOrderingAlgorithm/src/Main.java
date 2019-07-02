@@ -1,13 +1,16 @@
+import java.util.Map;
+
 public class Main {
 
     public static void main(String args[]){
         String word = "aabdcaacdaabdbabaabcaacaacab";
-        String word2 = "a";
-        String s = "zzjhjhzzh";
+        String word2 = "MFLIEKRRKLIQKKANYHSDPTTVFNHLCGSRPATLLLETAEVNKKNNLESIMIVDSAIRVSAVKNSVKITALSENGAEILSILKENPHKKIKFFEKNKSINLIFPSLDNNLDEDKKIFSLSVFDSFRFIMKSVNNTKRTSKAMFFGGLFSYDLISNFESLPNVKKKQKCPDFCFYLAETLLVVDHQKKTCLIQSSLFGRNVDEKNRIKKRTEEIEKKLEEKLTSIPKNKTTVPVQLTSNISDFQYSSTIKKLQKLIQKGEIFQVVPSRKFFLPCDNSLSAYQELKKSNPSPYMFFMQDEDFILFGASPESSLKYDEKNRQIELYPIAGTRPRGRKKDGTLDLDLDSRIELEMRTNHKELAEHLMLVDLARNDLARICEPGSRYVSDLVKVDKYSHVMHLVSKVVGQLKYGLDALHAYSSCMNMGTLTGAPKVRAMQLIAEYEGEGRGSYGGAIGYFTDLGNLDTCITIRSAYVESGVATIQAGAGVVFNSIPEDVKESLNKAQAVINAIKKAHFTMGSS".toLowerCase();
+        String s = "zzjhjhzh";
+        String s2 = "abcabcdabcaba";
+        //Map<String, String> sequences = new ReadFastaToString().read();
         //String wordFasta = new ReadFastaToString();
         char[] order = "abcdefghijklmnopqrstuvwxyz".toCharArray();
         /*
-        Duval duval = new Duval();
         System.out.println(word);
         ExponentParikhVector epv = new ExponentParikhVector(word);
         System.out.println(epv.toString());

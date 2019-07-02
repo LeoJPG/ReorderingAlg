@@ -4,13 +4,12 @@
     <list default="true" id="e9ce34b3-30ea-46e8-b4a7-acc2795883cb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlphabetOrderingAlgorithm/AlphabetReorderingAlg$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlphabetOrderingAlgorithm/AlphabetReorderingAlg$ExpAndBlock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlphabetOrderingAlgorithm/AlphabetReorderingAlg.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlphabetOrderingAlgorithm/AlphabetReorderingAlg$ExpAndBlock.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlphabetOrderingAlgorithm/AlphabetReorderingAlg$ExpAndBlock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlphabetOrderingAlgorithm/AlphabetReorderingAlg.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlphabetOrderingAlgorithm/AlphabetReorderingAlg.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/AlphabetOrderingAlgorithm/CharExpFactPair.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlphabetOrderingAlgorithm/CharExpFactPair.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/AlphabetOrderingAlgorithm/CharacterExponentsPair.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlphabetOrderingAlgorithm/CharacterExponentsPair.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlphabetOrderingAlgorithm/Duval.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlphabetOrderingAlgorithm/Duval.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlphabetOrderingAlgorithm/ExponentCountFactors.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlphabetOrderingAlgorithm/ExponentCountFactors.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlphabetOrderingAlgorithm/Duval.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlphabetOrderingAlgorithm/ExponentCountFactors.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/AlphabetOrderingAlgorithm/ExponentParikhVector.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlphabetOrderingAlgorithm/ExponentParikhVector.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/AlphabetOrderingAlgorithm/LyndonFactorizer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlphabetOrderingAlgorithm/LyndonFactorizer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/AlphabetOrderingAlgorithm/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlphabetOrderingAlgorithm/Main.class" afterDir="false" />
@@ -18,8 +17,11 @@
       <change beforePath="$PROJECT_DIR$/out/production/AlphabetOrderingAlgorithm/Mapping.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlphabetOrderingAlgorithm/Mapping.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/AlphabetOrderingAlgorithm/ReadFastaToString.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlphabetOrderingAlgorithm/ReadFastaToString.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AlphabetReorderingAlg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AlphabetReorderingAlg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Duval.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExponentCountFactors.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Mapping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mapping.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ReadFastaToString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ReadFastaToString.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,49 +33,24 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-2056869129">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.18" value="1" />
-          <entry key="project.opened" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="2271" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="2271" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
+            <state relative-caret-position="85">
+              <caret line="5" column="51" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="51" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Mapping.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="90" column="36" lean-forward="true" selection-start-line="90" selection-start-column="36" selection-end-line="90" selection-end-column="36" />
+            <state relative-caret-position="399">
+              <caret line="107" column="37" lean-forward="true" selection-start-line="107" selection-start-column="37" selection-end-line="107" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2869#2870#0" expanded="true" />
-                <element signature="e#2903#2904#0" expanded="true" />
-                <element signature="e#3839#3840#0" expanded="true" />
-                <element signature="e#3895#3896#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -82,17 +59,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AlphabetReorderingAlg.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="108" column="32" selection-start-line="108" selection-start-column="32" selection-end-line="108" selection-end-column="32" />
+            <state relative-caret-position="1122">
+              <caret line="67" column="45" selection-start-line="67" selection-start-column="45" selection-end-line="67" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#997#1005#0" expanded="true" />
-                <element signature="e#4629#4630#0" expanded="true" />
-                <element signature="e#4664#4665#0" expanded="true" />
-                <element signature="e#7756#7757#0" expanded="true" />
-                <element signature="e#7795#7796#0" expanded="true" />
-                <element signature="e#7832#7833#0" expanded="true" />
-                <element signature="e#7869#7870#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -101,20 +71,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ExponentParikhVector.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
+            <state relative-caret-position="629">
               <caret line="37" selection-start-line="37" selection-end-line="37" />
               <folding>
                 <element signature="e#1390#1391#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ExponentCountFactors.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -148,8 +109,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ReadFastaToString.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="221">
+              <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -160,22 +121,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CharExpFactPair.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
+            <state relative-caret-position="255">
               <caret line="17" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="e#349#350#0" expanded="true" />
                 <element signature="e#381#382#0" expanded="true" />
                 <element signature="e#466#467#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Duval.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -211,10 +163,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="677" />
-    <option name="width" value="696" />
-    <option name="height" value="735" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="953" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -222,6 +174,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -238,8 +192,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -294,7 +246,6 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.enhanced_factors" />
       <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
@@ -326,10 +277,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="677" y="0" width="696" height="735" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25382933" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.08315565" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -337,16 +288,16 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.19301164" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.32612312" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32932165" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.219935" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3261105" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32932165" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32932165" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32279533" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32275712" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -387,19 +338,31 @@
       <window_info anchor="right" id="Maven Projects" order="8" />
     </layout-to-restore>
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/tests/EPTest.java" />
     <entry file="file://$PROJECT_DIR$/../../LyndonProject/Evolutionary Algorithm and Lyndon Words/lyndon-factors/enhanced_factors.py" />
     <entry file="file://$PROJECT_DIR$/AlphabetOrderingAlgorithm.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ExponentCountFactors.java">
+    <entry file="file://$PROJECT_DIR$/src/Duval.java" />
+    <entry file="file://$PROJECT_DIR$/src/ExponentCountFactors.java" />
+    <entry file="file://$PROJECT_DIR$/src/AlphabetReorderingAlg.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        <state relative-caret-position="1122">
+          <caret line="67" column="45" selection-start-line="67" selection-start-column="45" selection-end-line="67" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ExponentParikhVector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="e#1390#1391#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -427,31 +390,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ReadFastaToString.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="221">
+          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Duval.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/CharExpFactPair.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
+        <state relative-caret-position="255">
           <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="e#349#350#0" expanded="true" />
@@ -461,44 +410,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ExponentParikhVector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-          <folding>
-            <element signature="e#1390#1391#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AlphabetReorderingAlg.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="108" column="32" selection-start-line="108" selection-start-column="32" selection-end-line="108" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#997#1005#0" expanded="true" />
-            <element signature="e#4629#4630#0" expanded="true" />
-            <element signature="e#4664#4665#0" expanded="true" />
-            <element signature="e#7756#7757#0" expanded="true" />
-            <element signature="e#7795#7796#0" expanded="true" />
-            <element signature="e#7832#7833#0" expanded="true" />
-            <element signature="e#7869#7870#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Mapping.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="90" column="36" lean-forward="true" selection-start-line="90" selection-start-column="36" selection-end-line="90" selection-end-column="36" />
+        <state relative-caret-position="399">
+          <caret line="107" column="37" lean-forward="true" selection-start-line="107" selection-start-column="37" selection-end-line="107" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2869#2870#0" expanded="true" />
-            <element signature="e#2903#2904#0" expanded="true" />
-            <element signature="e#3839#3840#0" expanded="true" />
-            <element signature="e#3895#3896#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="51" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="51" />
         </state>
       </provider>
     </entry>

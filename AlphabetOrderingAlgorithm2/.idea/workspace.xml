@@ -2,8 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84b36d9d-8184-4f41-92df-54292911a292" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/AlphabetReorderingAlg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Mapping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ModifiedDuval.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PartialOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AlphabetOrderingAlgorithm/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AlphabetOrderingAlgorithm/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AlphabetOrderingAlgorithm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AlphabetOrderingAlgorithm/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AlphabetOrderingAlgorithm/out/production/AlphabetOrderingAlgorithm/AlphabetReorderingAlg$ExpAndBlock.class" beforeDir="false" afterPath="$PROJECT_DIR$/../AlphabetOrderingAlgorithm/out/production/AlphabetOrderingAlgorithm/AlphabetReorderingAlg$ExpAndBlock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AlphabetOrderingAlgorithm/out/production/AlphabetOrderingAlgorithm/AlphabetReorderingAlg.class" beforeDir="false" afterPath="$PROJECT_DIR$/../AlphabetOrderingAlgorithm/out/production/AlphabetOrderingAlgorithm/AlphabetReorderingAlg.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AlphabetOrderingAlgorithm/out/production/AlphabetOrderingAlgorithm/CharExpFactPair.class" beforeDir="false" afterPath="$PROJECT_DIR$/../AlphabetOrderingAlgorithm/out/production/AlphabetOrderingAlgorithm/CharExpFactPair.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AlphabetOrderingAlgorithm/out/production/AlphabetOrderingAlgorithm/CharacterExponentsPair.class" beforeDir="false" afterPath="$PROJECT_DIR$/../AlphabetOrderingAlgorithm/out/production/AlphabetOrderingAlgorithm/CharacterExponentsPair.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AlphabetOrderingAlgorithm/out/production/AlphabetOrderingAlgorithm/Duval.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AlphabetOrderingAlgorithm/out/production/AlphabetOrderingAlgorithm/ExponentCountFactors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AlphabetOrderingAlgorithm/out/production/AlphabetOrderingAlgorithm/ExponentParikhVector.class" beforeDir="false" afterPath="$PROJECT_DIR$/../AlphabetOrderingAlgorithm/out/production/AlphabetOrderingAlgorithm/ExponentParikhVector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AlphabetOrderingAlgorithm/out/production/AlphabetOrderingAlgorithm/LyndonFactorizer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../AlphabetOrderingAlgorithm/out/production/AlphabetOrderingAlgorithm/LyndonFactorizer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AlphabetOrderingAlgorithm/out/production/AlphabetOrderingAlgorithm/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../AlphabetOrderingAlgorithm/out/production/AlphabetOrderingAlgorithm/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AlphabetOrderingAlgorithm/out/production/AlphabetOrderingAlgorithm/Mapping$Letter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../AlphabetOrderingAlgorithm/out/production/AlphabetOrderingAlgorithm/Mapping$Letter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AlphabetOrderingAlgorithm/out/production/AlphabetOrderingAlgorithm/Mapping.class" beforeDir="false" afterPath="$PROJECT_DIR$/../AlphabetOrderingAlgorithm/out/production/AlphabetOrderingAlgorithm/Mapping.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AlphabetOrderingAlgorithm/out/production/AlphabetOrderingAlgorithm/ReadFastaToString.class" beforeDir="false" afterPath="$PROJECT_DIR$/../AlphabetOrderingAlgorithm/out/production/AlphabetOrderingAlgorithm/ReadFastaToString.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AlphabetOrderingAlgorithm/src/AlphabetReorderingAlg.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AlphabetOrderingAlgorithm/src/AlphabetReorderingAlg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AlphabetOrderingAlgorithm/src/Duval.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AlphabetOrderingAlgorithm/src/ExponentCountFactors.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AlphabetOrderingAlgorithm/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AlphabetOrderingAlgorithm/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AlphabetOrderingAlgorithm/src/Mapping.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AlphabetOrderingAlgorithm/src/Mapping.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AlphabetOrderingAlgorithm/src/ReadFastaToString.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AlphabetOrderingAlgorithm/src/ReadFastaToString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -12,53 +36,130 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="241" />
+  </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/src/LyndonFactorizer.java">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="340">
+                    <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="49" lean-forward="true" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
+            <state relative-caret-position="441">
+              <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LyndonFactorizer.java">
+        <entry file="file://$PROJECT_DIR$/src/Mapping.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-83">
-              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+            <state relative-caret-position="2125">
+              <caret line="131" column="46" selection-start-line="131" selection-start-column="46" selection-end-line="131" selection-end-column="46" />
+              <folding>
+                <element signature="e#3576#3577#0" expanded="true" />
+                <element signature="e#3600#3601#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ExponentParikhVector.java">
+        <entry file="file://$PROJECT_DIR$/src/AlphabetReorderingAlg.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="15" lean-forward="true" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+            <state relative-caret-position="34">
+              <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ModifiedDuval.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/PartialOrder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" column="11" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
+              <folding>
+                <element signature="e#158#159#0" expanded="true" />
+                <element signature="e#201#202#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CharacterExponentsPair.java">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CharExpFactPair.java">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/AlphabetReorderingAlg.java" />
+        <option value="$PROJECT_DIR$/src/Mapping.java" />
+        <option value="$PROJECT_DIR$/src/LyndonFactorizer.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/PartialOrder.java" />
+        <option value="$PROJECT_DIR$/src/ModifiedDuval.java" />
+      </list>
+    </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
@@ -112,6 +213,20 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="AlphabetOrderingAlgorithm2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -129,23 +244,25 @@
     <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24945295" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25382933" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30743983" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32995737" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -156,31 +273,121 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/PartialOrder.java</url>
+          <line>29</line>
+          <properties class="PartialOrder" method="hasCharMapped">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/AlphabetOrderingAlgorithm2$Main.ic" NAME="Main Coverage Results" MODIFIED="1562076034589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/CharExpFactPair.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CharacterExponentsPair.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LyndonFactorizer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-83">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ExponentParikhVector.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="15" lean-forward="true" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PartialMapping.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AlphabetReorderingAlg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Mapping.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2125">
+          <caret line="131" column="46" selection-start-line="131" selection-start-column="46" selection-end-line="131" selection-end-column="46" />
+          <folding>
+            <element signature="e#3576#3577#0" expanded="true" />
+            <element signature="e#3600#3601#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/lang/Character.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8199" selection-start-line="8199" selection-end-line="8199" />
+          <folding>
+            <element signature="e#318094#318095#0" expanded="true" />
+            <element signature="e#318423#318424#0" expanded="true" />
+            <element signature="e#318456#318457#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CharacterExponentsPair.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="551" selection-start-line="551" selection-end-line="551" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PartialOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="11" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
+          <folding>
+            <element signature="e#158#159#0" expanded="true" />
+            <element signature="e#201#202#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LyndonFactorizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="49" lean-forward="true" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
+        <state relative-caret-position="441">
+          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ModifiedDuval.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

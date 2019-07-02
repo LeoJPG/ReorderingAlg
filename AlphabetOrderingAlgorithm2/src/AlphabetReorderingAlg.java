@@ -1,8 +1,50 @@
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.PrintWriter;
 import java.util.*;
-import java.util.regex.Pattern;
 
 public abstract class AlphabetReorderingAlg {
 
+    public static void reorderSequence(Map<String, String> sequence, boolean noBacktrack){
+        String pathname = System.getProperty("user.dir") + "\\GreedyAlgResults.txt";
+        File file = new File(pathname);
+        try {
+            PrintWriter printWriter = new PrintWriter(file);
+            for(Map.Entry<String,String> entry : sequence.entrySet()){
+                Mapping mapping = new Mapping();
+                printWriter.println("---------------------------------------------");
+                printWriter.print("ID: ");
+                printWriter.print(entry.getKey());
+                printWriter.println();
+                String proteinSeq = entry.getValue().toLowerCase(); //Mapping is implemented in a way that it works with lower case letters
+                ArrayList<String> proteinSeqFactors = LyndonFactorizer.factorize(proteinSeq, false);
+                printWriter.println("Factorization of the string with standard ordering (roman alphabet): ");
+                printWriter.println(proteinSeqFactors);
+                printWriter.print(" Number of factors: ");
+                printWriter.println(proteinSeqFactors.size());
+                printWriter.print("Exponent Parikh Vector: ");
+                ExponentParikhVector epv = new ExponentParikhVector(proteinSeq);
+                printWriter.println(epv);
+                printWriter.print("The factorization of the Exponent Parikh Vector (sorted) is : ");
+                ArrayList<CharExpFactPair> sortedEPV = LyndonFactorizer.factorize(epv);
+                Collections.sort(sortedEPV);
+                printWriter.println(sortedEPV);
+                printWriter.println();
+                ArrayList<String> proteinSeqFactReorder = LyndonFactorizer.factorize(reorder(proteinSeq, mapping, false), false);
+                printWriter.print("Factorization of the string with ordering (represented by mapping): ");
+                printWriter.println(mapping.toString());
+                printWriter.println(proteinSeqFactReorder);
+                printWriter.print("Number of factors: ");
+                printWriter.println(proteinSeqFactReorder.size());
+                printWriter.print("Difference in number of factors: ");
+                printWriter.println(proteinSeqFactReorder.size() - proteinSeqFactors.size());
+                printWriter.println("---------------------------------------------");
+                printWriter.flush();
+            }
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+    }
 
     public static String reorder(String word, Mapping map, boolean noBacktrack){
         //Makes exponent parikh vector
@@ -21,7 +63,7 @@ public abstract class AlphabetReorderingAlg {
         //System.out.println("prs: " + factorsEPV.toString());
         for(CharExpFactPair pri : factorsEPV){
             stringPrefix = beforeChar(word, pri.getCharacter());
-            HashSet<String> set = new HashSet<String>(Arrays.asList(stringPrefix.split("")));
+            HashSet<String> set = new HashSet<>(Arrays.asList(stringPrefix.split("")));
             set.remove("");
             int lengthForReset = set.size();
             map.reset(lengthForReset);
@@ -44,10 +86,8 @@ public abstract class AlphabetReorderingAlg {
                 map.reset(n);
             }
             map.assignAll(word);
-            System.out.println(map.toString());
-            map.reajust();
+            map.readjust();
             String reordered = map.mapString(word);
-            System.out.println(map.toString());
             return reordered;
         }
         else{
@@ -65,10 +105,8 @@ public abstract class AlphabetReorderingAlg {
                 map.reset(n);
             }
             map.assignAll(word);
-            System.out.println(map.toString());
-            map.reajust();
+            map.readjust();
             String reordered = map.mapString(word);
-            System.out.println(map.toString());
             return reordered;
         }
     }
@@ -230,5 +268,4 @@ public abstract class AlphabetReorderingAlg {
             return xBlock;
         }
     }
-
 }

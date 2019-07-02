@@ -11,7 +11,7 @@ public class ReadFastaToString {
 	
 	public Map<String, String> read(String filename) {
 		//to store sequences
-		Map<String, String> sequences = new HashMap<String, String>();
+		Map<String, String> sequences = new HashMap<>();
 		InputStream input_stream;
 		try {//attempts to open a buffered reader to open the file
 			input_stream = new FileInputStream(filename);
