@@ -1,30 +1,76 @@
 import java.util.ArrayList;
-import java.util.List;
+import java.util.Objects;
 
 public abstract class ModifiedDuval {
 
-    public static ArrayList<String> factor(String s, PartialOrder partialOrder){
+    private static PartialOrder partialOrder;
+
+    public static ArrayList<String> factor(String s){
+        partialOrder = new PartialOrder();
         int h = 0;
-        char[] chars = s.toCharArray();
+        ArrayList<ModCharacter> chars = new ArrayList<>();
+        for(Character character : s.toCharArray()){
+            chars.add(new ModCharacter(character));
+        }
         ArrayList<String> resultList = new ArrayList<>();
-        while (h < chars.length){
+        while (h < chars.size()){
             int i = h;
             int j = h + 1;
-            while (j < chars.length && (!partialOrder.hasCharMapped(chars[j], chars[i]) || chars[j] >= chars[i])){
-                if(chars[j] == chars[i]){
+            while (j < chars.size() && (!partialOrder.hasCharMapped(chars.get(j).getaChar(), chars.get(i).getaChar()) || chars.get(j).compareTo(chars.get(i)) >= 0 )){
+                if(chars.get(j).equals(chars.get(i))){
                     i++;
-                }else if(!partialOrder.hasCharMapped(chars[j], chars[i])){
-                    partialOrder.assignBiggerThan(chars[j], chars[i]);
+                }else if(!partialOrder.hasCharMapped(chars.get(j).getaChar(), chars.get(i).getaChar())){
+                    partialOrder.assignBiggerThan(chars.get(i).getaChar(), chars.get(i).getaChar());
                 }else{
                     i = h;
                 }
                 j++;
             }
             while(h <= i){
-                resultList.add(new String(chars, h, j-i));
+                String newString = "";
+                for(int x = h; x < (j-i); x++){
+                    newString += chars.get(x).getaChar();
+                }
+                resultList.add(newString);
                 h += j - i;
             }
         }
         return resultList;
+    }
+
+    private static class ModCharacter implements Comparable{
+        char aChar;
+
+        public ModCharacter(char aChar) {
+            this.aChar = aChar;
+        }
+
+        public char getaChar() {
+            return aChar;
+        }
+
+        @Override
+        public int compareTo(Object o) {
+            if(partialOrder.hasCharMapped(aChar, ((ModCharacter) o).getaChar() )){
+                return 1;
+            }else if(partialOrder.hasCharMapped(aChar, ((ModCharacter) o).getaChar() )){
+                return -1;
+            }else{
+                return Character.compare(aChar, ((ModCharacter) o).getaChar());
+            }
+        }
+
+        @Override
+        public boolean equals(Object o) {
+            if (this == o) return true;
+            if (o == null || getClass() != o.getClass()) return false;
+            ModCharacter that = (ModCharacter) o;
+            return aChar == that.aChar;
+        }
+
+        @Override
+        public int hashCode() {
+            return Objects.hash(aChar);
+        }
     }
 }

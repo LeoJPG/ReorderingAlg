@@ -20,11 +20,11 @@ public class PartialOrder {
             set.add(smaller);
             nodes.put(character, set);
         }
-        /*if (nodes.containsKey(smaller)) {
+        if (nodes.containsKey(smaller)) {
             for (Character aChar : nodes.get(smaller)) {
                 assignBiggerThan(character, aChar);
             }
-        }*/
+        }
     }
 
     public boolean hasCharMapped(Character character, Character smaller) {
@@ -36,7 +36,7 @@ public class PartialOrder {
     }
 
     public Comparator<Character> getComparator() {
-        Comparator<Character> comparator = new Comparator<Character>() {
+        return new Comparator<Character>() {
             @Override
             public int compare(Character o1, Character o2) {
                 if (nodes.get(o1).contains(o2)) {
@@ -45,7 +45,11 @@ public class PartialOrder {
                     return o1.compareTo(o2);
                 }
             }
+
+            @Override
+            public boolean equals(Object obj) {
+                return super.equals(obj);
+            }
         };
-        return comparator;
     }
 }

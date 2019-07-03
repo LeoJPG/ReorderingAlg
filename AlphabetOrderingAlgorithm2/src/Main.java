@@ -1,3 +1,7 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+
 public class Main {
 
     public static void main(String args[]){
@@ -29,7 +33,8 @@ public class Main {
         System.out.println(LyndonFactorizer.factorize(reorderedNoBacktrack, false));
         System.out.println(LyndonFactorizer.factorize(word, false));
          */
+        ModifiedDuval.factor(word);
 
-        System.out.println(ModifiedDuval.factor(word, partialOrder));
+        System.out.println(ModifiedDuval.factor(word));
     }
 }
