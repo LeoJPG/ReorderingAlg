@@ -19,8 +19,9 @@ public abstract class ModifiedDuval {
             while (j < chars.size() && (!partialOrder.hasCharMapped(chars.get(j).getaChar(), chars.get(i).getaChar()) || chars.get(j).compareTo(chars.get(i)) >= 0 )){
                 if(chars.get(j).equals(chars.get(i))){
                     i++;
-                }else if(!partialOrder.hasCharMapped(chars.get(j).getaChar(), chars.get(i).getaChar())){
-                    partialOrder.assignBiggerThan(chars.get(i).getaChar(), chars.get(i).getaChar());
+                }else if(!partialOrder.hasCharMapped(chars.get(j).getaChar(), chars.get(i).getaChar()) || !partialOrder.hasCharMapped(chars.get(i).getaChar(), chars.get(j).getaChar())){
+                    partialOrder.assignBiggerThan(chars.get(j).getaChar(), chars.get(i).getaChar());
+                    i = h;
                 }else{
                     i = h;
                 }
