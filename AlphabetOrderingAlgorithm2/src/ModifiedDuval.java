@@ -16,10 +16,10 @@ public abstract class ModifiedDuval {
         while (h < chars.size()){
             int i = h;
             int j = h + 1;
-            while (j < chars.size() && (!partialOrder.hasCharMapped() || chars.get(j).compareTo(chars.get(i)) >= 0 )){
+            while (j < chars.size() && (!partialOrder.hasCharMapped(chars.get(j).getaChar(), chars.get(i).getaChar()) || chars.get(j).compareTo(chars.get(i)) >= 0 )){
                 if(chars.get(j).equals(chars.get(i))){
                     i++;
-                }else if(!partialOrder.hasCharMapped(chars.get(j).getaChar(), chars.get(i).getaChar()) || !partialOrder.hasCharMapped(chars.get(i).getaChar(), chars.get(j).getaChar())){
+                }else if(!partialOrder.hasCharMapped(chars.get(j).getaChar(), chars.get(i).getaChar())){
                     partialOrder.assignBiggerThan(chars.get(j).getaChar(), chars.get(i).getaChar());
                     i = h;
                 }else{
@@ -29,13 +29,14 @@ public abstract class ModifiedDuval {
             }
             while(h <= i){
                 String newString = "";
-                for(int x = h; x < (j-i); x++){
+                for(int x = h; x < h + j - i; x++){
                     newString += chars.get(x).getaChar();
                 }
                 resultList.add(newString);
                 h += j - i;
             }
         }
+        System.out.println(partialOrder);
         return resultList;
     }
     private static class ModCharacter implements Comparable{
@@ -51,12 +52,12 @@ public abstract class ModifiedDuval {
 
         @Override
         public int compareTo(Object o) {
-            if(partialOrder.hasCharMapped(aChar, ((ModCharacter) o).getaChar() )){
+            if(partialOrder.isBiggerThan(aChar, ((ModCharacter)o).getaChar())) {
                 return 1;
-            }else if(partialOrder.hasCharMapped(aChar, ((ModCharacter) o).getaChar() )){
+            } else if(partialOrder.isBiggerThan(((ModCharacter)o).getaChar(), aChar)){
                 return -1;
             }else{
-                return Character.compare(aChar, ((ModCharacter) o).getaChar());
+                return 0;
             }
         }
 

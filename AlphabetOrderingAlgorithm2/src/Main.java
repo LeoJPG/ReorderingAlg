@@ -1,6 +1,5 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
+import org.jgrapht.graph.DefaultDirectedGraph;
+import org.jgrapht.graph.DefaultEdge;
 
 public class Main {
 
@@ -8,33 +7,20 @@ public class Main {
         String word = "aabdcaacdaabdbabaabcaacaacab";
         String word2 = "a";
         //String wordFasta = new ReadFastaToString();
-        char[] order = "abcdefghijklmnopqrstuvwxyz".toCharArray();
-        /*
-        Duval duval = new Duval();
-        System.out.println(word);
-        ExponentParikhVector epv = new ExponentParikhVector(word);
-        System.out.println(epv.toString());
-        System.out.println();
-        System.out.println(LyndonFactorizer.factorize(epv));
-        System.out.println();
-        System.out.println(duval.factor(order, word.toCharArray()));
-        System.out.println(LyndonFactorizer.factorize(word, false));
-        //--------------------------------algorithm 1
 
-        /
-        */
 
         PartialOrder partialOrder = new PartialOrder();
         /*
-        String reorderedNoBacktrack = AlphabetReorderingAlg.reorder(word2, mapping, false);
-        String reorderedWithBacktrack = AlphabetReorderingAlg.reorder(word, mapping, true);
-        System.out.println(reorderedNoBacktrack);
-        System.out.println(reorderedWithBacktrack);
-        System.out.println(LyndonFactorizer.factorize(reorderedNoBacktrack, false));
-        System.out.println(LyndonFactorizer.factorize(word, false));
-         */
         ModifiedDuval.factor(word);
-
+        DefaultDirectedGraph defaultDirectedGraph = new DefaultDirectedGraph(DefaultEdge.class);
+        defaultDirectedGraph.addVertex("a");
+        defaultDirectedGraph.addVertex("b");
+        defaultDirectedGraph.addVertex("c");
+        defaultDirectedGraph.addEdge("a", "b");
+        defaultDirectedGraph.addEdge("a", "c");
+        defaultDirectedGraph.addEdge("b", "c");
+        System.out.println(defaultDirectedGraph);
+        */
         System.out.println(ModifiedDuval.factor(word));
     }
 }
