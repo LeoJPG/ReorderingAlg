@@ -1,11 +1,13 @@
-import java.util.*;
+import org.jgrapht.graph.DefaultDirectedGraph;
+import org.jgrapht.graph.DefaultEdge;
+import org.jgrapht.traverse.BreadthFirstIterator;
 
 public class PartialOrder {
 
-    private HashMap<Character, HashSet<Character>> nodes;
+    private DefaultDirectedGraph<Character, DefaultEdge> nodes;
 
     public PartialOrder() {
-        this.nodes = new HashMap<>();
+        this.nodes = new DefaultDirectedGraph<>(DefaultEdge.class);
     }
 
     /**
@@ -13,43 +15,22 @@ public class PartialOrder {
      */
     //TODO: improve time complexity
     public void assignBiggerThan(Character character, Character smaller) {
-        if(nodes.get(character) != null) {
-            nodes.get(character).add(smaller);
-        }else {
-            HashSet<Character> set = new HashSet<>();
-            set.add(smaller);
-            nodes.put(character, set);
+        if(!nodes.containsVertex(character)){
+            nodes.addVertex(character);
         }
-        if (nodes.containsKey(smaller)) {
-            for (Character aChar : nodes.get(smaller)) {
-                assignBiggerThan(character, aChar);
-            }
+        if(!nodes.containsVertex(smaller)){
+            nodes.addVertex(smaller);
         }
     }
 
-    public boolean hasCharMapped(Character character, Character smaller) {
-        HashSet<Character> charSet = nodes.get(character);
-        if(charSet != null){
-            return charSet.contains(smaller);
+    public boolean hasCharMapped(Character character){
+        BreadthFirstIterator<Character, DefaultEdge> breadthFirstIterator = new BreadthFirstIterator<>(nodes);
+        while(breadthFirstIterator.hasNext()){
+            Character aChar = breadthFirstIterator.next();
+            if(aChar == character){
+                return true;
+            }
         }
         return false;
-    }
-
-    public Comparator<Character> getComparator() {
-        return new Comparator<Character>() {
-            @Override
-            public int compare(Character o1, Character o2) {
-                if (nodes.get(o1).contains(o2)) {
-                    return 1;
-                } else {
-                    return o1.compareTo(o2);
-                }
-            }
-
-            @Override
-            public boolean equals(Object obj) {
-                return super.equals(obj);
-            }
-        };
     }
 }

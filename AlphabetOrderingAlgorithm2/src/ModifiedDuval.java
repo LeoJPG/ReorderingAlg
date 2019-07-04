@@ -16,7 +16,7 @@ public abstract class ModifiedDuval {
         while (h < chars.size()){
             int i = h;
             int j = h + 1;
-            while (j < chars.size() && (!partialOrder.hasCharMapped(chars.get(j).getaChar(), chars.get(i).getaChar()) || chars.get(j).compareTo(chars.get(i)) >= 0 )){
+            while (j < chars.size() && (!partialOrder.hasCharMapped() || chars.get(j).compareTo(chars.get(i)) >= 0 )){
                 if(chars.get(j).equals(chars.get(i))){
                     i++;
                 }else if(!partialOrder.hasCharMapped(chars.get(j).getaChar(), chars.get(i).getaChar()) || !partialOrder.hasCharMapped(chars.get(i).getaChar(), chars.get(j).getaChar())){
@@ -38,7 +38,6 @@ public abstract class ModifiedDuval {
         }
         return resultList;
     }
-
     private static class ModCharacter implements Comparable{
         char aChar;
 
