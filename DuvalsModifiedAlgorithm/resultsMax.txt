@@ -1,0 +1,3437 @@
+ID: NP_240257.1
+Number of nodes: 20
+Previous factors: 9
+New factors: 34
+Size of string: 859
+
+ID: NP_240211.1
+Number of nodes: 20
+Previous factors: 6
+New factors: 24
+Size of string: 451
+
+ID: NP_240234.1
+Number of nodes: 17
+Previous factors: 7
+New factors: 10
+Size of string: 71
+
+ID: NP_240027.1
+Number of nodes: 19
+Previous factors: 6
+New factors: 18
+Size of string: 166
+
+ID: NP_240004.1
+Number of nodes: 20
+Previous factors: 9
+New factors: 19
+Size of string: 277
+
+ID: NP_240355.1
+Number of nodes: 20
+Previous factors: 5
+New factors: 15
+Size of string: 135
+
+ID: NP_240378.1
+Number of nodes: 20
+Previous factors: 12
+New factors: 26
+Size of string: 549
+
+ID: NP_240332.1
+Number of nodes: 20
+Previous factors: 10
+New factors: 21
+Size of string: 209
+
+ID: NP_240102.1
+Number of nodes: 19
+Previous factors: 6
+New factors: 21
+Size of string: 269
+
+ID: NP_239848.1
+Number of nodes: 20
+Previous factors: 3
+New factors: 16
+Size of string: 177
+
+ID: NP_240091.1
+Number of nodes: 20
+Previous factors: 8
+New factors: 20
+Size of string: 649
+
+ID: NP_239900.1
+Number of nodes: 20
+Previous factors: 8
+New factors: 20
+Size of string: 265
+
+ID: NP_239923.1
+Number of nodes: 20
+Previous factors: 5
+New factors: 19
+Size of string: 182
+
+ID: NP_239946.1
+Number of nodes: 20
+Previous factors: 8
+New factors: 19
+Size of string: 193
+
+ID: NP_240125.1
+Number of nodes: 20
+Previous factors: 7
+New factors: 21
+Size of string: 247
+
+ID: NP_240148.1
+Number of nodes: 17
+Previous factors: 4
+New factors: 12
+Size of string: 83
+
+ID: NP_240039.1
+Number of nodes: 20
+Previous factors: 10
+New factors: 23
+Size of string: 473
+
+ID: NP_240222.1
+Number of nodes: 17
+Previous factors: 8
+New factors: 9
+Size of string: 57
+
+ID: NP_240245.1
+Number of nodes: 20
+Previous factors: 6
+New factors: 16
+Size of string: 205
+
+ID: NP_239969.1
+Number of nodes: 20
+Previous factors: 8
+New factors: 24
+Size of string: 312
+
+ID: NP_240016.1
+Number of nodes: 17
+Previous factors: 6
+New factors: 19
+Size of string: 188
+
+ID: NP_240268.1
+Number of nodes: 20
+Previous factors: 6
+New factors: 24
+Size of string: 602
+
+ID: NP_240114.1
+Number of nodes: 20
+Previous factors: 11
+New factors: 23
+Size of string: 417
+
+ID: NP_240343.1
+Number of nodes: 20
+Previous factors: 6
+New factors: 18
+Size of string: 388
+
+ID: NP_240389.1
+Number of nodes: 16
+Previous factors: 6
+New factors: 14
+Size of string: 112
+
+ID: NP_240366.1
+Number of nodes: 20
+Previous factors: 13
+New factors: 20
+Size of string: 265
+
+ID: NP_239859.1
+Number of nodes: 20
+Previous factors: 7
+New factors: 20
+Size of string: 453
+
+ID: NP_240080.1
+Number of nodes: 20
+Previous factors: 9
+New factors: 17
+Size of string: 161
+
+ID: NP_240320.1
+Number of nodes: 20
+Previous factors: 3
+New factors: 16
+Size of string: 179
+
+ID: NP_239957.1
+Number of nodes: 20
+Previous factors: 7
+New factors: 25
+Size of string: 348
+
+ID: NP_239934.1
+Number of nodes: 20
+Previous factors: 8
+New factors: 24
+Size of string: 435
+
+ID: NP_239911.1
+Number of nodes: 20
+Previous factors: 2
+New factors: 26
+Size of string: 467
+
+ID: NP_240137.1
+Number of nodes: 20
+Previous factors: 5
+New factors: 20
+Size of string: 319
+
+ID: NP_240190.1
+Number of nodes: 19
+Previous factors: 7
+New factors: 14
+Size of string: 128
+
+ID: NP_240028.1
+Number of nodes: 20
+Previous factors: 6
+New factors: 18
+Size of string: 285
+
+ID: NP_240233.1
+Number of nodes: 20
+Previous factors: 6
+New factors: 21
+Size of string: 237
+
+ID: NP_240256.1
+Number of nodes: 19
+Previous factors: 9
+New factors: 22
+Size of string: 291
+
+ID: NP_239890.1
+Number of nodes: 20
+Previous factors: 4
+New factors: 17
+Size of string: 144
+
+ID: NP_240210.1
+Number of nodes: 20
+Previous factors: 5
+New factors: 23
+Size of string: 385
+
+ID: NP_240005.1
+Number of nodes: 20
+Previous factors: 9
+New factors: 23
+Size of string: 269
+
+ID: NP_240279.1
+Number of nodes: 20
+Previous factors: 3
+New factors: 14
+Size of string: 114
+
+ID: NP_240103.1
+Number of nodes: 20
+Previous factors: 8
+New factors: 23
+Size of string: 388
+
+ID: NP_240149.1
+Number of nodes: 19
+Previous factors: 5
+New factors: 18
+Size of string: 270
+
+ID: NP_240354.1
+Number of nodes: 20
+Previous factors: 11
+New factors: 22
+Size of string: 320
+
+ID: NP_240377.1
+Number of nodes: 20
+Previous factors: 11
+New factors: 23
+Size of string: 632
+
+ID: NP_239849.1
+Number of nodes: 19
+Previous factors: 9
+New factors: 30
+Size of string: 512
+
+ID: NP_240092.1
+Number of nodes: 20
+Previous factors: 10
+New factors: 18
+Size of string: 215
+
+ID: NP_240331.1
+Number of nodes: 19
+Previous factors: 7
+New factors: 20
+Size of string: 201
+
+ID: NP_239947.1
+Number of nodes: 19
+Previous factors: 11
+New factors: 16
+Size of string: 167
+
+ID: NP_239924.1
+Number of nodes: 20
+Previous factors: 9
+New factors: 25
+Size of string: 446
+
+ID: NP_239901.1
+Number of nodes: 18
+Previous factors: 8
+New factors: 15
+Size of string: 161
+
+ID: NP_240126.1
+Number of nodes: 20
+Previous factors: 9
+New factors: 24
+Size of string: 909
+
+ID: NP_240017.1
+Number of nodes: 20
+Previous factors: 7
+New factors: 19
+Size of string: 292
+
+ID: NP_240244.1
+Number of nodes: 19
+Previous factors: 6
+New factors: 19
+Size of string: 286
+
+ID: NP_240221.1
+Number of nodes: 20
+Previous factors: 6
+New factors: 27
+Size of string: 878
+
+ID: NP_240267.1
+Number of nodes: 20
+Previous factors: 7
+New factors: 26
+Size of string: 1174
+
+ID: NP_240115.1
+Number of nodes: 20
+Previous factors: 7
+New factors: 18
+Size of string: 224
+
+ID: NP_240138.1
+Number of nodes: 18
+Previous factors: 5
+New factors: 10
+Size of string: 72
+
+ID: NP_240365.1
+Number of nodes: 20
+Previous factors: 6
+New factors: 16
+Size of string: 154
+
+ID: NP_240388.1
+Number of nodes: 19
+Previous factors: 5
+New factors: 22
+Size of string: 367
+
+ID: NP_240081.1
+Number of nodes: 20
+Previous factors: 10
+New factors: 13
+Size of string: 126
+
+ID: NP_240342.1
+Number of nodes: 20
+Previous factors: 10
+New factors: 24
+Size of string: 408
+
+ID: NP_239958.1
+Number of nodes: 20
+Previous factors: 7
+New factors: 26
+Size of string: 642
+
+ID: NP_239935.1
+Number of nodes: 20
+Previous factors: 6
+New factors: 25
+Size of string: 368
+
+ID: NP_240213.1
+Number of nodes: 19
+Previous factors: 10
+New factors: 15
+Size of string: 176
+
+ID: NP_240236.1
+Number of nodes: 20
+Previous factors: 7
+New factors: 21
+Size of string: 473
+
+ID: NP_239978.1
+Number of nodes: 20
+Previous factors: 5
+New factors: 25
+Size of string: 387
+
+ID: NP_240002.1
+Number of nodes: 20
+Previous factors: 7
+New factors: 23
+Size of string: 294
+
+ID: NP_240048.1
+Number of nodes: 20
+Previous factors: 8
+New factors: 23
+Size of string: 399
+
+ID: NP_240025.1
+Number of nodes: 20
+Previous factors: 4
+New factors: 24
+Size of string: 309
+
+ID: NP_240259.1
+Number of nodes: 20
+Previous factors: 5
+New factors: 18
+Size of string: 214
+
+ID: NP_239869.1
+Number of nodes: 20
+Previous factors: 4
+New factors: 20
+Size of string: 459
+
+ID: NP_240311.1
+Number of nodes: 15
+Previous factors: 3
+New factors: 7
+Size of string: 38
+
+ID: NP_240357.1
+Number of nodes: 20
+Previous factors: 9
+New factors: 22
+Size of string: 376
+
+ID: NP_239846.1
+Number of nodes: 17
+Previous factors: 6
+New factors: 11
+Size of string: 79
+
+ID: NP_240334.1
+Number of nodes: 20
+Previous factors: 5
+New factors: 20
+Size of string: 394
+
+ID: NP_240100.1
+Number of nodes: 20
+Previous factors: 8
+New factors: 15
+Size of string: 177
+
+ID: NP_240123.1
+Number of nodes: 20
+Previous factors: 9
+New factors: 17
+Size of string: 171
+
+ID: NP_240146.1
+Number of nodes: 20
+Previous factors: 7
+New factors: 22
+Size of string: 521
+
+ID: NP_240169.1
+Number of nodes: 18
+Previous factors: 3
+New factors: 9
+Size of string: 54
+
+ID: NP_239921.1
+Number of nodes: 19
+Previous factors: 5
+New factors: 8
+Size of string: 75
+
+ID: NP_239944.1
+Number of nodes: 20
+Previous factors: 6
+New factors: 26
+Size of string: 440
+
+ID: NP_240201.1
+Number of nodes: 20
+Previous factors: 6
+New factors: 17
+Size of string: 206
+
+ID: NP_240224.1
+Number of nodes: 20
+Previous factors: 10
+New factors: 21
+Size of string: 378
+
+ID: NP_240247.1
+Number of nodes: 20
+Previous factors: 6
+New factors: 20
+Size of string: 207
+
+ID: NP_239920.1
+Number of nodes: 16
+Previous factors: 3
+New factors: 9
+Size of string: 55
+
+ID: NP_239967.1
+Number of nodes: 18
+Previous factors: 3
+New factors: 13
+Size of string: 111
+
+ID: NP_240014.1
+Number of nodes: 20
+Previous factors: 5
+New factors: 20
+Size of string: 197
+
+ID: NP_240037.2
+Number of nodes: 20
+Previous factors: 11
+New factors: 24
+Size of string: 887
+
+ID: NP_240322.1
+Number of nodes: 19
+Previous factors: 5
+New factors: 13
+Size of string: 122
+
+ID: NP_240368.1
+Number of nodes: 19
+Previous factors: 3
+New factors: 13
+Size of string: 75
+
+ID: NP_239857.1
+Number of nodes: 19
+Previous factors: 5
+New factors: 14
+Size of string: 115
+
+ID: NP_240112.1
+Number of nodes: 19
+Previous factors: 5
+New factors: 24
+Size of string: 368
+
+ID: NP_240345.1
+Number of nodes: 19
+Previous factors: 6
+New factors: 20
+Size of string: 228
+
+ID: NP_240135.1
+Number of nodes: 20
+Previous factors: 7
+New factors: 20
+Size of string: 361
+
+ID: NP_239932.1
+Number of nodes: 20
+Previous factors: 6
+New factors: 20
+Size of string: 186
+
+ID: NP_239955.1
+Number of nodes: 18
+Previous factors: 6
+New factors: 14
+Size of string: 130
+
+ID: NP_240158.1
+Number of nodes: 17
+Previous factors: 6
+New factors: 17
+Size of string: 136
+
+ID: NP_240235.1
+Number of nodes: 20
+Previous factors: 5
+New factors: 19
+Size of string: 206
+
+ID: NP_240258.1
+Number of nodes: 20
+Previous factors: 8
+New factors: 19
+Size of string: 331
+
+ID: NP_239979.1
+Number of nodes: 20
+Previous factors: 6
+New factors: 17
+Size of string: 269
+
+ID: NP_240212.1
+Number of nodes: 19
+Previous factors: 5
+New factors: 11
+Size of string: 79
+
+ID: NP_057969.1
+Number of nodes: 20
+Previous factors: 8
+New factors: 22
+Size of string: 519
+
+ID: NP_240003.1
+Number of nodes: 20
+Previous factors: 7
+New factors: 18
+Size of string: 361
+
+ID: NP_240026.1
+Number of nodes: 20
+Previous factors: 8
+New factors: 27
+Size of string: 816
+
+ID: NP_240049.1
+Number of nodes: 20
+Previous factors: 7
+New factors: 24
+Size of string: 440
+
+ID: NP_240310.1
+Number of nodes: 19
+Previous factors: 3
+New factors: 15
+Size of string: 118
+
+ID: NP_240356.1
+Number of nodes: 20
+Previous factors: 8
+New factors: 17
+Size of string: 200
+
+ID: NP_240379.1
+Number of nodes: 20
+Previous factors: 7
+New factors: 15
+Size of string: 184
+
+ID: NP_239847.1
+Number of nodes: 20
+Previous factors: 6
+New factors: 19
+Size of string: 161
+
+ID: NP_240101.1
+Number of nodes: 20
+Previous factors: 6
+New factors: 20
+Size of string: 247
+
+ID: NP_240333.2
+Number of nodes: 18
+Previous factors: 4
+New factors: 15
+Size of string: 103
+
+ID: NP_240090.1
+Number of nodes: 20
+Previous factors: 7
+New factors: 19
+Size of string: 260
+
+ID: NP_239945.1
+Number of nodes: 20
+Previous factors: 4
+New factors: 17
+Size of string: 208
+
+ID: NP_240124.1
+Number of nodes: 20
+Previous factors: 7
+New factors: 23
+Size of string: 483
+
+ID: NP_239922.1
+Number of nodes: 20
+Previous factors: 10
+New factors: 32
+Size of string: 970
+
+ID: NP_240147.1
+Number of nodes: 20
+Previous factors: 8
+New factors: 18
+Size of string: 221
+
+ID: NP_240200.1
+Number of nodes: 20
+Previous factors: 13
+New factors: 30
+Size of string: 611
+
+ID: NP_240246.1
+Number of nodes: 20
+Previous factors: 5
+New factors: 24
+Size of string: 607
+
+ID: NP_240223.1
+Number of nodes: 20
+Previous factors: 9
+New factors: 25
+Size of string: 518
+
+ID: NP_239968.2
+Number of nodes: 20
+Previous factors: 11
+New factors: 27
+Size of string: 690
+
+ID: NP_240038.1
+Number of nodes: 20
+Previous factors: 8
+New factors: 26
+Size of string: 405
+
+ID: NP_240015.1
+Number of nodes: 20
+Previous factors: 7
+New factors: 19
+Size of string: 220
+
+ID: NP_240269.1
+Number of nodes: 20
+Previous factors: 7
+New factors: 19
+Size of string: 442
+
+ID: NP_240321.1
+Number of nodes: 17
+Previous factors: 4
+New factors: 16
+Size of string: 104
+
+ID: NP_240344.1
+Number of nodes: 20
+Previous factors: 7
+New factors: 24
+Size of string: 335
+
+ID: NP_240367.1
+Number of nodes: 18
+Previous factors: 7
+New factors: 13
+Size of string: 150
+
+ID: NP_240159.2
+Number of nodes: 19
+Previous factors: 6
+New factors: 21
+Size of string: 236
+
+ID: NP_240113.1
+Number of nodes: 20
+Previous factors: 8
+New factors: 23
+Size of string: 423
+
+ID: NP_239858.2
+Number of nodes: 19
+Previous factors: 4
+New factors: 24
+Size of string: 532
+
+ID: NP_239956.1
+Number of nodes: 20
+Previous factors: 8
+New factors: 20
+Size of string: 360
+
+ID: NP_239910.1
+Number of nodes: 20
+Previous factors: 7
+New factors: 19
+Size of string: 220
+
+ID: NP_240136.1
+Number of nodes: 20
+Previous factors: 9
+New factors: 24
+Size of string: 427
+
+ID: NP_239933.1
+Number of nodes: 20
+Previous factors: 8
+New factors: 22
+Size of string: 299
+
+ID: NP_239930.1
+Number of nodes: 20
+Previous factors: 6
+New factors: 23
+Size of string: 294
+
+ID: NP_239953.1
+Number of nodes: 20
+Previous factors: 11
+New factors: 26
+Size of string: 726
+
+ID: NP_239976.1
+Number of nodes: 19
+Previous factors: 4
+New factors: 17
+Size of string: 161
+
+ID: NP_239999.1
+Number of nodes: 20
+Previous factors: 11
+New factors: 24
+Size of string: 469
+
+ID: NP_240008.1
+Number of nodes: 20
+Previous factors: 9
+New factors: 27
+Size of string: 708
+
+ID: NP_240170.1
+Number of nodes: 19
+Previous factors: 4
+New factors: 20
+Size of string: 244
+
+ID: NP_240193.1
+Number of nodes: 18
+Previous factors: 3
+New factors: 14
+Size of string: 89
+
+ID: NP_240215.1
+Number of nodes: 20
+Previous factors: 6
+New factors: 14
+Size of string: 115
+
+ID: NP_240238.1
+Number of nodes: 20
+Previous factors: 8
+New factors: 24
+Size of string: 473
+
+ID: NP_239867.2
+Number of nodes: 20
+Previous factors: 9
+New factors: 24
+Size of string: 284
+
+ID: NP_239844.1
+Number of nodes: 20
+Previous factors: 7
+New factors: 21
+Size of string: 628
+
+ID: NP_240072.1
+Number of nodes: 20
+Previous factors: 11
+New factors: 25
+Size of string: 574
+
+ID: NP_240129.1
+Number of nodes: 20
+Previous factors: 10
+New factors: 23
+Size of string: 320
+
+ID: NP_240095.1
+Number of nodes: 20
+Previous factors: 6
+New factors: 14
+Size of string: 236
+
+ID: NP_240313.1
+Number of nodes: 18
+Previous factors: 4
+New factors: 15
+Size of string: 144
+
+ID: NP_240336.1
+Number of nodes: 19
+Previous factors: 8
+New factors: 14
+Size of string: 156
+
+ID: NP_240106.1
+Number of nodes: 20
+Previous factors: 10
+New factors: 20
+Size of string: 307
+
+ID: NP_239964.1
+Number of nodes: 16
+Previous factors: 4
+New factors: 12
+Size of string: 102
+
+ID: NP_240359.1
+Number of nodes: 20
+Previous factors: 7
+New factors: 21
+Size of string: 350
+
+ID: NP_057971.1
+Number of nodes: 20
+Previous factors: 7
+New factors: 27
+Size of string: 475
+
+ID: NP_239941.2
+Number of nodes: 20
+Previous factors: 10
+New factors: 23
+Size of string: 468
+
+ID: NP_239965.1
+Number of nodes: 20
+Previous factors: 7
+New factors: 23
+Size of string: 357
+
+ID: NP_239988.1
+Number of nodes: 20
+Previous factors: 5
+New factors: 21
+Size of string: 224
+
+ID: NP_240203.1
+Number of nodes: 19
+Previous factors: 4
+New factors: 11
+Size of string: 80
+
+ID: NP_240182.1
+Number of nodes: 20
+Previous factors: 7
+New factors: 27
+Size of string: 701
+
+ID: NP_239843.1
+Number of nodes: 20
+Previous factors: 4
+New factors: 17
+Size of string: 207
+
+ID: NP_240226.1
+Number of nodes: 20
+Previous factors: 4
+New factors: 23
+Size of string: 253
+
+ID: NP_240249.1
+Number of nodes: 20
+Previous factors: 9
+New factors: 19
+Size of string: 349
+
+ID: NP_239855.1
+Number of nodes: 20
+Previous factors: 6
+New factors: 20
+Size of string: 454
+
+ID: NP_240061.1
+Number of nodes: 20
+Previous factors: 5
+New factors: 19
+Size of string: 244
+
+ID: NP_240118.1
+Number of nodes: 20
+Previous factors: 6
+New factors: 23
+Size of string: 334
+
+ID: NP_240290.1
+Number of nodes: 20
+Previous factors: 7
+New factors: 23
+Size of string: 623
+
+ID: NP_239878.1
+Number of nodes: 20
+Previous factors: 5
+New factors: 16
+Size of string: 165
+
+ID: NP_240084.1
+Number of nodes: 20
+Previous factors: 3
+New factors: 22
+Size of string: 314
+
+ID: NP_240324.1
+Number of nodes: 18
+Previous factors: 3
+New factors: 8
+Size of string: 65
+
+ID: NP_240301.1
+Number of nodes: 20
+Previous factors: 8
+New factors: 23
+Size of string: 273
+
+ID: NP_240347.1
+Number of nodes: 18
+Previous factors: 4
+New factors: 19
+Size of string: 173
+
+ID: NP_239931.1
+Number of nodes: 20
+Previous factors: 8
+New factors: 24
+Size of string: 354
+
+ID: NP_239977.1
+Number of nodes: 20
+Previous factors: 6
+New factors: 25
+Size of string: 1079
+
+ID: NP_240214.1
+Number of nodes: 20
+Previous factors: 7
+New factors: 24
+Size of string: 237
+
+ID: NP_240009.1
+Number of nodes: 18
+Previous factors: 7
+New factors: 12
+Size of string: 87
+
+ID: NP_240194.1
+Number of nodes: 19
+Previous factors: 7
+New factors: 22
+Size of string: 312
+
+ID: NP_240171.1
+Number of nodes: 15
+Previous factors: 8
+New factors: 8
+Size of string: 80
+
+ID: NP_240085.2
+Number of nodes: 20
+Previous factors: 6
+New factors: 25
+Size of string: 610
+
+ID: NP_240237.1
+Number of nodes: 20
+Previous factors: 7
+New factors: 24
+Size of string: 302
+
+ID: NP_239845.1
+Number of nodes: 20
+Previous factors: 8
+New factors: 23
+Size of string: 274
+
+ID: NP_239868.1
+Number of nodes: 20
+Previous factors: 5
+New factors: 22
+Size of string: 609
+
+ID: NP_240073.1
+Number of nodes: 20
+Previous factors: 6
+New factors: 21
+Size of string: 251
+
+ID: NP_240096.1
+Number of nodes: 20
+Previous factors: 8
+New factors: 20
+Size of string: 194
+
+ID: NP_240312.1
+Number of nodes: 20
+Previous factors: 8
+New factors: 24
+Size of string: 437
+
+ID: NP_240335.1
+Number of nodes: 20
+Previous factors: 8
+New factors: 22
+Size of string: 702
+
+ID: NP_240050.1
+Number of nodes: 20
+Previous factors: 6
+New factors: 22
+Size of string: 357
+
+ID: NP_240107.2
+Number of nodes: 20
+Previous factors: 7
+New factors: 18
+Size of string: 250
+
+ID: NP_240358.1
+Number of nodes: 20
+Previous factors: 7
+New factors: 22
+Size of string: 239
+
+ID: NP_239943.1
+Number of nodes: 20
+Previous factors: 7
+New factors: 27
+Size of string: 547
+
+ID: NP_239942.1
+Number of nodes: 20
+Previous factors: 7
+New factors: 16
+Size of string: 193
+
+ID: NP_057970.1
+Number of nodes: 20
+Previous factors: 6
+New factors: 25
+Size of string: 363
+
+ID: NP_239966.1
+Number of nodes: 20
+Previous factors: 6
+New factors: 24
+Size of string: 370
+
+ID: NP_240225.1
+Number of nodes: 20
+Previous factors: 8
+New factors: 21
+Size of string: 250
+
+ID: NP_239989.1
+Number of nodes: 20
+Previous factors: 6
+New factors: 24
+Size of string: 600
+
+ID: NP_240202.1
+Number of nodes: 19
+Previous factors: 5
+New factors: 19
+Size of string: 159
+
+ID: NP_240160.2
+Number of nodes: 20
+Previous factors: 6
+New factors: 21
+Size of string: 408
+
+ID: NP_240183.1
+Number of nodes: 20
+Previous factors: 7
+New factors: 21
+Size of string: 596
+
+ID: NP_240097.1
+Number of nodes: 20
+Previous factors: 7
+New factors: 14
+Size of string: 135
+
+ID: NP_240248.1
+Number of nodes: 20
+Previous factors: 9
+New factors: 23
+Size of string: 319
+
+ID: NP_239856.1
+Number of nodes: 16
+Previous factors: 5
+New factors: 8
+Size of string: 47
+
+ID: NP_239879.1
+Number of nodes: 18
+Previous factors: 12
+New factors: 18
+Size of string: 231
+
+ID: NP_240062.1
+Number of nodes: 19
+Previous factors: 6
+New factors: 21
+Size of string: 268
+
+ID: NP_240323.1
+Number of nodes: 20
+Previous factors: 4
+New factors: 9
+Size of string: 83
+
+ID: NP_240346.1
+Number of nodes: 20
+Previous factors: 8
+New factors: 25
+Size of string: 363
+
+ID: NP_240119.1
+Number of nodes: 20
+Previous factors: 12
+New factors: 23
+Size of string: 812
+
+ID: NP_240300.1
+Number of nodes: 17
+Previous factors: 11
+New factors: 11
+Size of string: 69
+
+ID: NP_240369.1
+Number of nodes: 19
+Previous factors: 6
+New factors: 13
+Size of string: 113
+
+ID: NP_239954.1
+Number of nodes: 20
+Previous factors: 8
+New factors: 23
+Size of string: 422
+
+ID: NP_240191.1
+Number of nodes: 20
+Previous factors: 8
+New factors: 22
+Size of string: 601
+
+ID: NP_240006.1
+Number of nodes: 19
+Previous factors: 11
+New factors: 20
+Size of string: 268
+
+ID: NP_239951.1
+Number of nodes: 20
+Previous factors: 8
+New factors: 16
+Size of string: 227
+
+ID: NP_240029.1
+Number of nodes: 20
+Previous factors: 3
+New factors: 22
+Size of string: 263
+
+ID: NP_240401.1
+Number of nodes: 20
+Previous factors: 5
+New factors: 25
+Size of string: 404
+
+ID: NP_240217.1
+Number of nodes: 20
+Previous factors: 11
+New factors: 13
+Size of string: 150
+
+ID: NP_239876.1
+Number of nodes: 20
+Previous factors: 4
+New factors: 30
+Size of string: 1342
+
+ID: NP_239853.1
+Number of nodes: 20
+Previous factors: 8
+New factors: 22
+Size of string: 803
+
+ID: NP_240070.2
+Number of nodes: 20
+Previous factors: 9
+New factors: 24
+Size of string: 383
+
+ID: NP_240104.1
+Number of nodes: 20
+Previous factors: 7
+New factors: 26
+Size of string: 453
+
+ID: NP_240127.1
+Number of nodes: 20
+Previous factors: 11
+New factors: 24
+Size of string: 420
+
+ID: NP_240093.1
+Number of nodes: 20
+Previous factors: 11
+New factors: 18
+Size of string: 211
+
+ID: NP_239888.1
+Number of nodes: 20
+Previous factors: 8
+New factors: 22
+Size of string: 403
+
+ID: NP_240281.1
+Number of nodes: 20
+Previous factors: 4
+New factors: 12
+Size of string: 105
+
+ID: NP_239962.1
+Number of nodes: 20
+Previous factors: 11
+New factors: 22
+Size of string: 329
+
+ID: NP_240315.1
+Number of nodes: 18
+Previous factors: 4
+New factors: 15
+Size of string: 167
+
+ID: NP_239985.1
+Number of nodes: 19
+Previous factors: 4
+New factors: 28
+Size of string: 377
+
+ID: NP_240338.1
+Number of nodes: 19
+Previous factors: 8
+New factors: 12
+Size of string: 95
+
+ID: NP_240018.1
+Number of nodes: 19
+Previous factors: 3
+New factors: 12
+Size of string: 102
+
+ID: NP_240180.1
+Number of nodes: 20
+Previous factors: 8
+New factors: 28
+Size of string: 399
+
+ID: NP_240390.1
+Number of nodes: 20
+Previous factors: 10
+New factors: 20
+Size of string: 246
+
+ID: NP_239864.1
+Number of nodes: 20
+Previous factors: 6
+New factors: 18
+Size of string: 164
+
+ID: NP_239887.1
+Number of nodes: 20
+Previous factors: 14
+New factors: 21
+Size of string: 257
+
+ID: NP_240205.1
+Number of nodes: 18
+Previous factors: 3
+New factors: 13
+Size of string: 108
+
+ID: NP_240228.1
+Number of nodes: 20
+Previous factors: 5
+New factors: 25
+Size of string: 571
+
+ID: NP_240116.1
+Number of nodes: 20
+Previous factors: 6
+New factors: 23
+Size of string: 343
+
+ID: NP_240082.1
+Number of nodes: 20
+Previous factors: 7
+New factors: 19
+Size of string: 283
+
+ID: NP_240139.1
+Number of nodes: 20
+Previous factors: 7
+New factors: 29
+Size of string: 586
+
+ID: NP_239899.1
+Number of nodes: 20
+Previous factors: 10
+New factors: 21
+Size of string: 414
+
+ID: NP_240292.1
+Number of nodes: 20
+Previous factors: 9
+New factors: 24
+Size of string: 590
+
+ID: NP_240303.1
+Number of nodes: 20
+Previous factors: 5
+New factors: 18
+Size of string: 157
+
+ID: NP_240326.1
+Number of nodes: 19
+Previous factors: 7
+New factors: 20
+Size of string: 233
+
+ID: NP_239974.1
+Number of nodes: 19
+Previous factors: 6
+New factors: 24
+Size of string: 273
+
+ID: NP_239997.1
+Number of nodes: 20
+Previous factors: 11
+New factors: 27
+Size of string: 614
+
+ID: NP_240349.1
+Number of nodes: 20
+Previous factors: 7
+New factors: 20
+Size of string: 407
+
+ID: NP_239952.2
+Number of nodes: 20
+Previous factors: 8
+New factors: 21
+Size of string: 210
+
+ID: NP_240007.1
+Number of nodes: 20
+Previous factors: 6
+New factors: 20
+Size of string: 405
+
+ID: NP_239998.1
+Number of nodes: 20
+Previous factors: 12
+New factors: 24
+Size of string: 505
+
+ID: NP_240192.1
+Number of nodes: 20
+Previous factors: 9
+New factors: 25
+Size of string: 707
+
+ID: NP_240400.1
+Number of nodes: 20
+Previous factors: 10
+New factors: 26
+Size of string: 617
+
+ID: NP_240239.1
+Number of nodes: 20
+Previous factors: 6
+New factors: 23
+Size of string: 244
+
+ID: NP_239854.1
+Number of nodes: 19
+Previous factors: 7
+New factors: 24
+Size of string: 366
+
+ID: NP_240216.1
+Number of nodes: 20
+Previous factors: 6
+New factors: 22
+Size of string: 483
+
+ID: NP_240071.1
+Number of nodes: 20
+Previous factors: 9
+New factors: 22
+Size of string: 696
+
+ID: NP_240094.1
+Number of nodes: 20
+Previous factors: 8
+New factors: 21
+Size of string: 323
+
+ID: NP_240128.1
+Number of nodes: 20
+Previous factors: 9
+New factors: 20
+Size of string: 231
+
+ID: NP_239866.1
+Number of nodes: 20
+Previous factors: 9
+New factors: 21
+Size of string: 378
+
+ID: NP_239889.1
+Number of nodes: 20
+Previous factors: 10
+New factors: 24
+Size of string: 459
+
+ID: NP_240280.1
+Number of nodes: 20
+Previous factors: 5
+New factors: 20
+Size of string: 285
+
+ID: NP_240314.1
+Number of nodes: 17
+Previous factors: 4
+New factors: 9
+Size of string: 59
+
+ID: NP_239963.1
+Number of nodes: 20
+Previous factors: 10
+New factors: 31
+Size of string: 795
+
+ID: NP_239986.1
+Number of nodes: 20
+Previous factors: 9
+New factors: 24
+Size of string: 637
+
+ID: NP_240105.1
+Number of nodes: 19
+Previous factors: 9
+New factors: 24
+Size of string: 342
+
+ID: NP_240337.2
+Number of nodes: 19
+Previous factors: 4
+New factors: 14
+Size of string: 124
+
+ID: NP_239987.1
+Number of nodes: 19
+Previous factors: 8
+New factors: 18
+Size of string: 134
+
+ID: NP_239940.1
+Number of nodes: 20
+Previous factors: 10
+New factors: 17
+Size of string: 215
+
+ID: NP_240019.1
+Number of nodes: 19
+Previous factors: 6
+New factors: 12
+Size of string: 108
+
+ID: NP_240181.1
+Number of nodes: 19
+Previous factors: 5
+New factors: 20
+Size of string: 287
+
+ID: NP_239865.1
+Number of nodes: 20
+Previous factors: 7
+New factors: 21
+Size of string: 191
+
+ID: NP_240204.1
+Number of nodes: 20
+Previous factors: 6
+New factors: 21
+Size of string: 416
+
+ID: NP_240227.1
+Number of nodes: 20
+Previous factors: 8
+New factors: 19
+Size of string: 223
+
+ID: NP_240060.1
+Number of nodes: 20
+Previous factors: 3
+New factors: 23
+Size of string: 264
+
+ID: NP_240083.1
+Number of nodes: 20
+Previous factors: 8
+New factors: 20
+Size of string: 226
+
+ID: NP_240117.1
+Number of nodes: 20
+Previous factors: 5
+New factors: 23
+Size of string: 428
+
+ID: NP_239877.1
+Number of nodes: 17
+Previous factors: 7
+New factors: 12
+Size of string: 122
+
+ID: NP_240302.1
+Number of nodes: 20
+Previous factors: 10
+New factors: 15
+Size of string: 175
+
+ID: NP_240291.1
+Number of nodes: 20
+Previous factors: 7
+New factors: 23
+Size of string: 589
+
+ID: YP_008492944.1
+Number of nodes: 20
+Previous factors: 9
+New factors: 16
+Size of string: 159
+
+ID: NP_240325.1
+Number of nodes: 20
+Previous factors: 9
+New factors: 14
+Size of string: 136
+
+ID: NP_240348.1
+Number of nodes: 19
+Previous factors: 6
+New factors: 17
+Size of string: 234
+
+ID: NP_239975.1
+Number of nodes: 20
+Previous factors: 6
+New factors: 20
+Size of string: 274
+
+ID: NP_057964.1
+Number of nodes: 20
+Previous factors: 3
+New factors: 18
+Size of string: 200
+
+ID: NP_240151.1
+Number of nodes: 20
+Previous factors: 8
+New factors: 19
+Size of string: 280
+
+ID: NP_240381.2
+Number of nodes: 19
+Previous factors: 8
+New factors: 15
+Size of string: 72
+
+ID: NP_240403.1
+Number of nodes: 19
+Previous factors: 6
+New factors: 13
+Size of string: 174
+
+ID: NP_240295.1
+Number of nodes: 20
+Previous factors: 12
+New factors: 28
+Size of string: 624
+
+ID: NP_240219.1
+Number of nodes: 20
+Previous factors: 9
+New factors: 21
+Size of string: 312
+
+ID: NP_240042.1
+Number of nodes: 19
+Previous factors: 8
+New factors: 20
+Size of string: 232
+
+ID: NP_239851.1
+Number of nodes: 20
+Previous factors: 8
+New factors: 19
+Size of string: 465
+
+ID: NP_239897.1
+Number of nodes: 19
+Previous factors: 8
+New factors: 20
+Size of string: 215
+
+ID: NP_240065.1
+Number of nodes: 20
+Previous factors: 11
+New factors: 23
+Size of string: 398
+
+ID: NP_239874.1
+Number of nodes: 16
+Previous factors: 5
+New factors: 11
+Size of string: 92
+
+ID: NP_240088.1
+Number of nodes: 20
+Previous factors: 7
+New factors: 27
+Size of string: 456
+
+ID: NP_239908.1
+Number of nodes: 20
+Previous factors: 4
+New factors: 25
+Size of string: 545
+
+ID: NP_240030.1
+Number of nodes: 20
+Previous factors: 4
+New factors: 17
+Size of string: 151
+
+ID: NP_240260.1
+Number of nodes: 18
+Previous factors: 7
+New factors: 11
+Size of string: 76
+
+ID: NP_240283.1
+Number of nodes: 20
+Previous factors: 11
+New factors: 25
+Size of string: 662
+
+ID: NP_240163.1
+Number of nodes: 20
+Previous factors: 7
+New factors: 20
+Size of string: 238
+
+ID: NP_240186.1
+Number of nodes: 20
+Previous factors: 8
+New factors: 21
+Size of string: 499
+
+ID: NP_239960.1
+Number of nodes: 17
+Previous factors: 5
+New factors: 9
+Size of string: 65
+
+ID: NP_239983.1
+Number of nodes: 19
+Previous factors: 9
+New factors: 24
+Size of string: 313
+
+ID: NP_240317.1
+Number of nodes: 20
+Previous factors: 5
+New factors: 19
+Size of string: 178
+
+ID: NP_240140.1
+Number of nodes: 20
+Previous factors: 5
+New factors: 17
+Size of string: 262
+
+ID: NP_240392.2
+Number of nodes: 20
+Previous factors: 10
+New factors: 25
+Size of string: 410
+
+ID: NP_240031.1
+Number of nodes: 20
+Previous factors: 4
+New factors: 21
+Size of string: 266
+
+ID: NP_240054.1
+Number of nodes: 19
+Previous factors: 6
+New factors: 12
+Size of string: 84
+
+ID: NP_239862.1
+Number of nodes: 20
+Previous factors: 7
+New factors: 17
+Size of string: 203
+
+ID: NP_239885.1
+Number of nodes: 20
+Previous factors: 10
+New factors: 24
+Size of string: 381
+
+ID: NP_240077.1
+Number of nodes: 19
+Previous factors: 8
+New factors: 17
+Size of string: 194
+
+ID: NP_240207.1
+Number of nodes: 20
+Previous factors: 8
+New factors: 22
+Size of string: 334
+
+ID: NP_240271.1
+Number of nodes: 18
+Previous factors: 5
+New factors: 15
+Size of string: 160
+
+ID: NP_240294.1
+Number of nodes: 18
+Previous factors: 6
+New factors: 14
+Size of string: 109
+
+ID: NP_239919.1
+Number of nodes: 19
+Previous factors: 7
+New factors: 19
+Size of string: 258
+
+ID: NP_240152.1
+Number of nodes: 20
+Previous factors: 6
+New factors: 26
+Size of string: 349
+
+ID: NP_240198.1
+Number of nodes: 20
+Previous factors: 5
+New factors: 13
+Size of string: 109
+
+ID: NP_240305.1
+Number of nodes: 20
+Previous factors: 8
+New factors: 21
+Size of string: 314
+
+ID: NP_240175.1
+Number of nodes: 20
+Previous factors: 7
+New factors: 22
+Size of string: 477
+
+ID: NP_239972.1
+Number of nodes: 20
+Previous factors: 5
+New factors: 23
+Size of string: 256
+
+ID: NP_239995.1
+Number of nodes: 20
+Previous factors: 4
+New factors: 16
+Size of string: 170
+
+ID: NP_240328.1
+Number of nodes: 18
+Previous factors: 8
+New factors: 11
+Size of string: 92
+
+ID: NP_239950.1
+Number of nodes: 19
+Previous factors: 7
+New factors: 18
+Size of string: 164
+
+ID: NP_057963.1
+Number of nodes: 19
+Previous factors: 7
+New factors: 25
+Size of string: 521
+
+ID: NP_240402.1
+Number of nodes: 20
+Previous factors: 6
+New factors: 14
+Size of string: 127
+
+ID: NP_240020.1
+Number of nodes: 20
+Previous factors: 6
+New factors: 23
+Size of string: 221
+
+ID: NP_240043.1
+Number of nodes: 19
+Previous factors: 3
+New factors: 14
+Size of string: 114
+
+ID: NP_240380.1
+Number of nodes: 20
+Previous factors: 9
+New factors: 16
+Size of string: 237
+
+ID: NP_239852.1
+Number of nodes: 19
+Previous factors: 5
+New factors: 14
+Size of string: 138
+
+ID: NP_239875.1
+Number of nodes: 20
+Previous factors: 12
+New factors: 23
+Size of string: 1407
+
+ID: NP_239898.1
+Number of nodes: 20
+Previous factors: 8
+New factors: 22
+Size of string: 315
+
+ID: NP_240218.1
+Number of nodes: 18
+Previous factors: 8
+New factors: 12
+Size of string: 98
+
+ID: NP_240066.1
+Number of nodes: 20
+Previous factors: 10
+New factors: 20
+Size of string: 251
+
+ID: NP_240089.1
+Number of nodes: 20
+Previous factors: 9
+New factors: 19
+Size of string: 221
+
+ID: NP_239909.1
+Number of nodes: 19
+Previous factors: 12
+New factors: 22
+Size of string: 331
+
+ID: NP_240282.1
+Number of nodes: 20
+Previous factors: 9
+New factors: 15
+Size of string: 205
+
+ID: NP_240316.3
+Number of nodes: 18
+Previous factors: 6
+New factors: 15
+Size of string: 122
+
+ID: NP_240141.1
+Number of nodes: 19
+Previous factors: 6
+New factors: 23
+Size of string: 238
+
+ID: NP_240187.1
+Number of nodes: 20
+Previous factors: 7
+New factors: 18
+Size of string: 338
+
+ID: NP_240164.1
+Number of nodes: 19
+Previous factors: 9
+New factors: 25
+Size of string: 385
+
+ID: NP_239961.1
+Number of nodes: 17
+Previous factors: 5
+New factors: 13
+Size of string: 118
+
+ID: NP_239984.1
+Number of nodes: 18
+Previous factors: 6
+New factors: 12
+Size of string: 89
+
+ID: NP_240339.1
+Number of nodes: 19
+Previous factors: 3
+New factors: 14
+Size of string: 119
+
+ID: NP_240055.1
+Number of nodes: 20
+Previous factors: 9
+New factors: 19
+Size of string: 312
+
+ID: NP_240391.1
+Number of nodes: 20
+Previous factors: 9
+New factors: 23
+Size of string: 490
+
+ID: NP_240032.1
+Number of nodes: 20
+Previous factors: 5
+New factors: 23
+Size of string: 760
+
+ID: NP_239886.1
+Number of nodes: 20
+Previous factors: 9
+New factors: 22
+Size of string: 334
+
+ID: NP_240229.1
+Number of nodes: 20
+Previous factors: 5
+New factors: 22
+Size of string: 545
+
+ID: NP_239863.1
+Number of nodes: 20
+Previous factors: 9
+New factors: 21
+Size of string: 246
+
+ID: NP_240078.1
+Number of nodes: 20
+Previous factors: 6
+New factors: 11
+Size of string: 99
+
+ID: NP_240206.1
+Number of nodes: 19
+Previous factors: 3
+New factors: 10
+Size of string: 84
+
+ID: NP_240270.1
+Number of nodes: 19
+Previous factors: 13
+New factors: 22
+Size of string: 359
+
+ID: NP_240293.1
+Number of nodes: 20
+Previous factors: 5
+New factors: 22
+Size of string: 361
+
+ID: NP_240130.1
+Number of nodes: 20
+Previous factors: 5
+New factors: 19
+Size of string: 263
+
+ID: NP_240153.1
+Number of nodes: 20
+Previous factors: 14
+New factors: 23
+Size of string: 511
+
+ID: NP_240176.1
+Number of nodes: 20
+Previous factors: 4
+New factors: 14
+Size of string: 114
+
+ID: NP_240304.1
+Number of nodes: 19
+Previous factors: 8
+New factors: 18
+Size of string: 173
+
+ID: NP_239973.1
+Number of nodes: 20
+Previous factors: 7
+New factors: 25
+Size of string: 430
+
+ID: NP_240327.1
+Number of nodes: 18
+Previous factors: 5
+New factors: 16
+Size of string: 110
+
+ID: NP_239996.1
+Number of nodes: 18
+Previous factors: 8
+New factors: 12
+Size of string: 100
+
+ID: NP_240199.2
+Number of nodes: 20
+Previous factors: 7
+New factors: 31
+Size of string: 444
+
+ID: NP_240172.1
+Number of nodes: 20
+Previous factors: 8
+New factors: 20
+Size of string: 212
+
+ID: NP_240195.1
+Number of nodes: 19
+Previous factors: 5
+New factors: 18
+Size of string: 120
+
+ID: NP_240251.1
+Number of nodes: 20
+Previous factors: 7
+New factors: 23
+Size of string: 415
+
+ID: NP_239872.1
+Number of nodes: 20
+Previous factors: 11
+New factors: 23
+Size of string: 758
+
+ID: NP_240274.1
+Number of nodes: 20
+Previous factors: 6
+New factors: 18
+Size of string: 207
+
+ID: NP_240360.1
+Number of nodes: 19
+Previous factors: 8
+New factors: 12
+Size of string: 93
+
+ID: NP_240405.1
+Number of nodes: 20
+Previous factors: 8
+New factors: 17
+Size of string: 111
+
+ID: NP_240297.1
+Number of nodes: 20
+Previous factors: 4
+New factors: 23
+Size of string: 285
+
+ID: NP_240086.1
+Number of nodes: 20
+Previous factors: 6
+New factors: 25
+Size of string: 368
+
+ID: NP_239895.1
+Number of nodes: 17
+Previous factors: 7
+New factors: 8
+Size of string: 71
+
+ID: NP_240074.1
+Number of nodes: 20
+Previous factors: 7
+New factors: 20
+Size of string: 237
+
+ID: NP_240051.1
+Number of nodes: 20
+Previous factors: 6
+New factors: 22
+Size of string: 455
+
+ID: NP_239929.1
+Number of nodes: 20
+Previous factors: 8
+New factors: 23
+Size of string: 375
+
+ID: NP_240372.1
+Number of nodes: 19
+Previous factors: 8
+New factors: 21
+Size of string: 310
+
+ID: NP_240395.1
+Number of nodes: 20
+Previous factors: 7
+New factors: 24
+Size of string: 314
+
+ID: NP_240319.1
+Number of nodes: 20
+Previous factors: 4
+New factors: 12
+Size of string: 101
+
+ID: NP_239906.1
+Number of nodes: 20
+Previous factors: 7
+New factors: 24
+Size of string: 467
+
+ID: NP_239981.1
+Number of nodes: 19
+Previous factors: 10
+New factors: 16
+Size of string: 160
+
+ID: NP_240108.1
+Number of nodes: 20
+Previous factors: 7
+New factors: 21
+Size of string: 336
+
+ID: NP_240161.1
+Number of nodes: 20
+Previous factors: 3
+New factors: 20
+Size of string: 252
+
+ID: NP_240184.1
+Number of nodes: 20
+Previous factors: 9
+New factors: 23
+Size of string: 324
+
+ID: NP_239860.1
+Number of nodes: 18
+Previous factors: 7
+New factors: 13
+Size of string: 96
+
+ID: NP_239883.1
+Number of nodes: 20
+Previous factors: 7
+New factors: 22
+Size of string: 356
+
+ID: NP_240209.1
+Number of nodes: 20
+Previous factors: 8
+New factors: 18
+Size of string: 142
+
+ID: NP_240262.1
+Number of nodes: 19
+Previous factors: 6
+New factors: 16
+Size of string: 196
+
+ID: NP_240285.1
+Number of nodes: 18
+Previous factors: 7
+New factors: 12
+Size of string: 104
+
+ID: NP_240371.1
+Number of nodes: 20
+Previous factors: 10
+New factors: 23
+Size of string: 433
+
+ID: NP_240098.1
+Number of nodes: 20
+Previous factors: 6
+New factors: 22
+Size of string: 486
+
+ID: NP_240075.2
+Number of nodes: 19
+Previous factors: 9
+New factors: 19
+Size of string: 193
+
+ID: NP_240063.1
+Number of nodes: 19
+Previous factors: 7
+New factors: 18
+Size of string: 242
+
+ID: NP_240040.1
+Number of nodes: 19
+Previous factors: 10
+New factors: 22
+Size of string: 265
+
+ID: NP_240383.1
+Number of nodes: 20
+Previous factors: 8
+New factors: 24
+Size of string: 443
+
+ID: NP_240250.1
+Number of nodes: 20
+Previous factors: 5
+New factors: 19
+Size of string: 506
+
+ID: NP_239917.1
+Number of nodes: 20
+Previous factors: 9
+New factors: 25
+Size of string: 379
+
+ID: NP_239970.1
+Number of nodes: 20
+Previous factors: 7
+New factors: 24
+Size of string: 281
+
+ID: NP_239993.1
+Number of nodes: 20
+Previous factors: 8
+New factors: 25
+Size of string: 322
+
+ID: NP_240196.1
+Number of nodes: 20
+Previous factors: 6
+New factors: 23
+Size of string: 864
+
+ID: NP_240307.1
+Number of nodes: 20
+Previous factors: 7
+New factors: 17
+Size of string: 329
+
+ID: NP_240173.1
+Number of nodes: 20
+Previous factors: 5
+New factors: 22
+Size of string: 326
+
+ID: NP_240150.1
+Number of nodes: 20
+Previous factors: 10
+New factors: 18
+Size of string: 237
+
+ID: NP_240273.1
+Number of nodes: 20
+Previous factors: 5
+New factors: 17
+Size of string: 141
+
+ID: NP_240296.1
+Number of nodes: 19
+Previous factors: 5
+New factors: 17
+Size of string: 215
+
+ID: NP_240382.1
+Number of nodes: 20
+Previous factors: 10
+New factors: 20
+Size of string: 176
+
+ID: NP_239850.1
+Number of nodes: 20
+Previous factors: 7
+New factors: 19
+Size of string: 290
+
+ID: NP_240404.1
+Number of nodes: 20
+Previous factors: 6
+New factors: 22
+Size of string: 611
+
+ID: NP_240064.1
+Number of nodes: 19
+Previous factors: 5
+New factors: 17
+Size of string: 185
+
+ID: NP_240087.1
+Number of nodes: 20
+Previous factors: 7
+New factors: 18
+Size of string: 211
+
+ID: NP_239873.1
+Number of nodes: 20
+Previous factors: 8
+New factors: 26
+Size of string: 525
+
+ID: NP_239896.1
+Number of nodes: 20
+Previous factors: 9
+New factors: 24
+Size of string: 336
+
+ID: NP_240052.1
+Number of nodes: 20
+Previous factors: 7
+New factors: 26
+Size of string: 497
+
+ID: NP_239907.1
+Number of nodes: 17
+Previous factors: 7
+New factors: 10
+Size of string: 98
+
+ID: NP_240394.1
+Number of nodes: 20
+Previous factors: 9
+New factors: 14
+Size of string: 116
+
+ID: NP_240318.1
+Number of nodes: 18
+Previous factors: 5
+New factors: 19
+Size of string: 130
+
+ID: NP_239982.1
+Number of nodes: 20
+Previous factors: 7
+New factors: 28
+Size of string: 940
+
+ID: NP_240109.1
+Number of nodes: 20
+Previous factors: 10
+New factors: 25
+Size of string: 861
+
+ID: NP_240185.1
+Number of nodes: 20
+Previous factors: 8
+New factors: 22
+Size of string: 955
+
+ID: NP_240162.1
+Number of nodes: 19
+Previous factors: 8
+New factors: 20
+Size of string: 260
+
+ID: NP_240261.2
+Number of nodes: 20
+Previous factors: 9
+New factors: 21
+Size of string: 371
+
+ID: NP_240370.1
+Number of nodes: 20
+Previous factors: 11
+New factors: 28
+Size of string: 745
+
+ID: NP_240393.1
+Number of nodes: 20
+Previous factors: 7
+New factors: 23
+Size of string: 284
+
+ID: NP_239861.1
+Number of nodes: 19
+Previous factors: 3
+New factors: 17
+Size of string: 548
+
+ID: NP_240208.1
+Number of nodes: 18
+Previous factors: 6
+New factors: 17
+Size of string: 130
+
+ID: NP_240284.1
+Number of nodes: 20
+Previous factors: 9
+New factors: 20
+Size of string: 296
+
+ID: NP_240053.1
+Number of nodes: 20
+Previous factors: 10
+New factors: 20
+Size of string: 579
+
+ID: NP_240076.1
+Number of nodes: 20
+Previous factors: 7
+New factors: 18
+Size of string: 158
+
+ID: NP_239884.1
+Number of nodes: 20
+Previous factors: 7
+New factors: 26
+Size of string: 292
+
+ID: NP_240099.1
+Number of nodes: 19
+Previous factors: 5
+New factors: 12
+Size of string: 135
+
+ID: NP_240041.1
+Number of nodes: 20
+Previous factors: 4
+New factors: 22
+Size of string: 286
+
+ID: NP_239918.1
+Number of nodes: 18
+Previous factors: 6
+New factors: 10
+Size of string: 89
+
+ID: NP_240272.1
+Number of nodes: 20
+Previous factors: 9
+New factors: 21
+Size of string: 323
+
+ID: NP_240306.1
+Number of nodes: 19
+Previous factors: 4
+New factors: 14
+Size of string: 130
+
+ID: NP_240329.1
+Number of nodes: 20
+Previous factors: 6
+New factors: 25
+Size of string: 273
+
+ID: NP_240197.1
+Number of nodes: 20
+Previous factors: 9
+New factors: 24
+Size of string: 496
+
+ID: NP_239971.1
+Number of nodes: 19
+Previous factors: 4
+New factors: 13
+Size of string: 95
+
+ID: NP_240174.2
+Number of nodes: 19
+Previous factors: 9
+New factors: 22
+Size of string: 264
+
+ID: NP_239994.1
+Number of nodes: 19
+Previous factors: 11
+New factors: 21
+Size of string: 180
+
+ID: NP_240253.1
+Number of nodes: 20
+Previous factors: 13
+New factors: 21
+Size of string: 264
+
+ID: NP_240230.1
+Number of nodes: 20
+Previous factors: 9
+New factors: 20
+Size of string: 434
+
+ID: NP_057968.1
+Number of nodes: 19
+Previous factors: 3
+New factors: 18
+Size of string: 178
+
+ID: NP_239893.1
+Number of nodes: 20
+Previous factors: 7
+New factors: 27
+Size of string: 612
+
+ID: NP_240023.1
+Number of nodes: 20
+Previous factors: 8
+New factors: 23
+Size of string: 362
+
+ID: NP_240069.1
+Number of nodes: 20
+Previous factors: 10
+New factors: 28
+Size of string: 572
+
+ID: NP_240000.2
+Number of nodes: 20
+Previous factors: 8
+New factors: 21
+Size of string: 411
+
+ID: NP_239870.1
+Number of nodes: 20
+Previous factors: 5
+New factors: 16
+Size of string: 189
+
+ID: NP_240276.1
+Number of nodes: 20
+Previous factors: 7
+New factors: 23
+Size of string: 608
+
+ID: NP_240299.1
+Number of nodes: 19
+Previous factors: 7
+New factors: 12
+Size of string: 87
+
+ID: NP_240046.1
+Number of nodes: 20
+Previous factors: 6
+New factors: 23
+Size of string: 484
+
+ID: NP_240351.1
+Number of nodes: 19
+Previous factors: 5
+New factors: 18
+Size of string: 192
+
+ID: NP_240374.1
+Number of nodes: 20
+Previous factors: 4
+New factors: 19
+Size of string: 302
+
+ID: NP_240397.1
+Number of nodes: 19
+Previous factors: 9
+New factors: 16
+Size of string: 108
+
+ID: NP_239904.1
+Number of nodes: 20
+Previous factors: 10
+New factors: 17
+Size of string: 315
+
+ID: NP_239927.1
+Number of nodes: 20
+Previous factors: 6
+New factors: 25
+Size of string: 316
+
+ID: NP_240121.1
+Number of nodes: 19
+Previous factors: 6
+New factors: 22
+Size of string: 228
+
+ID: NP_240144.1
+Number of nodes: 20
+Previous factors: 9
+New factors: 24
+Size of string: 292
+
+ID: NP_240167.1
+Number of nodes: 20
+Previous factors: 6
+New factors: 22
+Size of string: 902
+
+ID: NP_240241.1
+Number of nodes: 20
+Previous factors: 12
+New factors: 22
+Size of string: 601
+
+ID: NP_239881.1
+Number of nodes: 19
+Previous factors: 5
+New factors: 17
+Size of string: 181
+
+ID: NP_240012.1
+Number of nodes: 20
+Previous factors: 6
+New factors: 23
+Size of string: 830
+
+ID: NP_240287.1
+Number of nodes: 19
+Previous factors: 8
+New factors: 19
+Size of string: 208
+
+ID: NP_240264.2
+Number of nodes: 20
+Previous factors: 9
+New factors: 27
+Size of string: 358
+
+ID: NP_240035.1
+Number of nodes: 20
+Previous factors: 5
+New factors: 19
+Size of string: 217
+
+ID: NP_240058.1
+Number of nodes: 20
+Previous factors: 5
+New factors: 24
+Size of string: 478
+
+ID: NP_240110.1
+Number of nodes: 20
+Previous factors: 5
+New factors: 20
+Size of string: 266
+
+ID: NP_240385.1
+Number of nodes: 20
+Previous factors: 3
+New factors: 21
+Size of string: 252
+
+ID: NP_240362.1
+Number of nodes: 20
+Previous factors: 7
+New factors: 23
+Size of string: 413
+
+ID: NP_239991.1
+Number of nodes: 20
+Previous factors: 8
+New factors: 27
+Size of string: 444
+
+ID: NP_239938.1
+Number of nodes: 20
+Previous factors: 3
+New factors: 22
+Size of string: 246
+
+ID: NP_239915.1
+Number of nodes: 19
+Previous factors: 4
+New factors: 20
+Size of string: 315
+
+ID: NP_240133.1
+Number of nodes: 20
+Previous factors: 7
+New factors: 20
+Size of string: 558
+
+ID: NP_240156.1
+Number of nodes: 20
+Previous factors: 7
+New factors: 17
+Size of string: 226
+
+ID: NP_240309.1
+Number of nodes: 20
+Previous factors: 8
+New factors: 16
+Size of string: 131
+
+ID: NP_240179.1
+Number of nodes: 20
+Previous factors: 11
+New factors: 22
+Size of string: 466
+
+ID: NP_240252.1
+Number of nodes: 20
+Previous factors: 8
+New factors: 17
+Size of string: 281
+
+ID: NP_057967.1
+Number of nodes: 20
+Previous factors: 7
+New factors: 17
+Size of string: 167
+
+ID: NP_239871.1
+Number of nodes: 18
+Previous factors: 5
+New factors: 11
+Size of string: 69
+
+ID: NP_239894.1
+Number of nodes: 20
+Previous factors: 10
+New factors: 24
+Size of string: 577
+
+ID: NP_240001.1
+Number of nodes: 19
+Previous factors: 6
+New factors: 20
+Size of string: 315
+
+ID: NP_240275.1
+Number of nodes: 20
+Previous factors: 6
+New factors: 16
+Size of string: 143
+
+ID: NP_240298.1
+Number of nodes: 20
+Previous factors: 11
+New factors: 30
+Size of string: 464
+
+ID: NP_240406.1
+Number of nodes: 20
+Previous factors: 12
+New factors: 23
+Size of string: 453
+
+ID: NP_240024.1
+Number of nodes: 20
+Previous factors: 8
+New factors: 25
+Size of string: 429
+
+ID: NP_240047.1
+Number of nodes: 20
+Previous factors: 7
+New factors: 25
+Size of string: 354
+
+ID: NP_240350.1
+Number of nodes: 20
+Previous factors: 6
+New factors: 27
+Size of string: 526
+
+ID: NP_240396.1
+Number of nodes: 20
+Previous factors: 6
+New factors: 17
+Size of string: 419
+
+ID: NP_240373.1
+Number of nodes: 20
+Previous factors: 8
+New factors: 28
+Size of string: 406
+
+ID: NP_239980.1
+Number of nodes: 20
+Previous factors: 7
+New factors: 20
+Size of string: 319
+
+ID: NP_239928.1
+Number of nodes: 20
+Previous factors: 8
+New factors: 23
+Size of string: 665
+
+ID: NP_239905.1
+Number of nodes: 20
+Previous factors: 7
+New factors: 23
+Size of string: 675
+
+ID: NP_240122.1
+Number of nodes: 20
+Previous factors: 10
+New factors: 21
+Size of string: 336
+
+ID: NP_240145.1
+Number of nodes: 17
+Previous factors: 3
+New factors: 10
+Size of string: 69
+
+ID: NP_240168.1
+Number of nodes: 20
+Previous factors: 10
+New factors: 22
+Size of string: 314
+
+ID: NP_240240.1
+Number of nodes: 20
+Previous factors: 9
+New factors: 23
+Size of string: 569
+
+ID: NP_239882.1
+Number of nodes: 20
+Previous factors: 8
+New factors: 15
+Size of string: 127
+
+ID: NP_240263.1
+Number of nodes: 20
+Previous factors: 8
+New factors: 21
+Size of string: 390
+
+ID: NP_240286.1
+Number of nodes: 20
+Previous factors: 7
+New factors: 24
+Size of string: 442
+
+ID: NP_240013.1
+Number of nodes: 18
+Previous factors: 5
+New factors: 24
+Size of string: 238
+
+ID: NP_240059.1
+Number of nodes: 20
+Previous factors: 10
+New factors: 22
+Size of string: 274
+
+ID: NP_240036.1
+Number of nodes: 20
+Previous factors: 8
+New factors: 19
+Size of string: 349
+
+ID: NP_240111.1
+Number of nodes: 20
+Previous factors: 6
+New factors: 22
+Size of string: 363
+
+ID: NP_240361.1
+Number of nodes: 20
+Previous factors: 8
+New factors: 19
+Size of string: 262
+
+ID: NP_240384.1
+Number of nodes: 20
+Previous factors: 7
+New factors: 15
+Size of string: 157
+
+ID: NP_239916.1
+Number of nodes: 18
+Previous factors: 8
+New factors: 12
+Size of string: 133
+
+ID: NP_239939.1
+Number of nodes: 20
+Previous factors: 6
+New factors: 18
+Size of string: 258
+
+ID: NP_239992.1
+Number of nodes: 20
+Previous factors: 3
+New factors: 28
+Size of string: 906
+
+ID: NP_240134.1
+Number of nodes: 20
+Previous factors: 8
+New factors: 23
+Size of string: 427
+
+ID: NP_240157.1
+Number of nodes: 18
+Previous factors: 6
+New factors: 13
+Size of string: 115
+
+ID: NP_240308.1
+Number of nodes: 20
+Previous factors: 5
+New factors: 21
+Size of string: 206
+
+ID: NP_240255.1
+Number of nodes: 20
+Previous factors: 5
+New factors: 12
+Size of string: 111
+
+ID: NP_240232.1
+Number of nodes: 19
+Previous factors: 9
+New factors: 17
+Size of string: 161
+
+ID: NP_057966.1
+Number of nodes: 20
+Previous factors: 6
+New factors: 21
+Size of string: 283
+
+ID: NP_240044.1
+Number of nodes: 18
+Previous factors: 8
+New factors: 24
+Size of string: 384
+
+ID: NP_239891.1
+Number of nodes: 20
+Previous factors: 6
+New factors: 17
+Size of string: 142
+
+ID: NP_240021.1
+Number of nodes: 19
+Previous factors: 4
+New factors: 22
+Size of string: 203
+
+ID: NP_240278.1
+Number of nodes: 20
+Previous factors: 8
+New factors: 16
+Size of string: 390
+
+ID: NP_240067.1
+Number of nodes: 20
+Previous factors: 7
+New factors: 23
+Size of string: 617
+
+ID: NP_240376.1
+Number of nodes: 20
+Previous factors: 7
+New factors: 21
+Size of string: 385
+
+ID: NP_240399.1
+Number of nodes: 20
+Previous factors: 7
+New factors: 25
+Size of string: 490
+
+ID: NP_240353.1
+Number of nodes: 20
+Previous factors: 6
+New factors: 22
+Size of string: 465
+
+ID: NP_240330.1
+Number of nodes: 20
+Previous factors: 4
+New factors: 13
+Size of string: 100
+
+ID: NP_240142.1
+Number of nodes: 19
+Previous factors: 9
+New factors: 22
+Size of string: 480
+
+ID: NP_240165.1
+Number of nodes: 18
+Previous factors: 4
+New factors: 14
+Size of string: 99
+
+ID: NP_240188.1
+Number of nodes: 20
+Previous factors: 9
+New factors: 21
+Size of string: 310
+
+ID: NP_239948.2
+Number of nodes: 20
+Previous factors: 10
+New factors: 27
+Size of string: 473
+
+ID: NP_239925.1
+Number of nodes: 20
+Previous factors: 5
+New factors: 26
+Size of string: 282
+
+ID: NP_239902.1
+Number of nodes: 20
+Previous factors: 6
+New factors: 24
+Size of string: 571
+
+ID: NP_240220.1
+Number of nodes: 19
+Previous factors: 12
+New factors: 17
+Size of string: 246
+
+ID: NP_240243.1
+Number of nodes: 20
+Previous factors: 10
+New factors: 20
+Size of string: 212
+
+ID: NP_240010.1
+Number of nodes: 20
+Previous factors: 8
+New factors: 23
+Size of string: 376
+
+ID: NP_240033.1
+Number of nodes: 20
+Previous factors: 14
+New factors: 29
+Size of string: 875
+
+ID: NP_240056.1
+Number of nodes: 18
+Previous factors: 7
+New factors: 18
+Size of string: 158
+
+ID: NP_240079.1
+Number of nodes: 20
+Previous factors: 7
+New factors: 16
+Size of string: 162
+
+ID: NP_240266.1
+Number of nodes: 20
+Previous factors: 5
+New factors: 24
+Size of string: 1070
+
+ID: NP_240289.1
+Number of nodes: 20
+Previous factors: 11
+New factors: 23
+Size of string: 777
+
+ID: NP_240387.1
+Number of nodes: 18
+Previous factors: 5
+New factors: 16
+Size of string: 165
+
+ID: NP_240364.1
+Number of nodes: 19
+Previous factors: 6
+New factors: 19
+Size of string: 213
+
+ID: NP_240341.1
+Number of nodes: 19
+Previous factors: 6
+New factors: 21
+Size of string: 241
+
+ID: NP_240131.1
+Number of nodes: 20
+Previous factors: 8
+New factors: 20
+Size of string: 255
+
+ID: NP_240177.1
+Number of nodes: 19
+Previous factors: 6
+New factors: 13
+Size of string: 169
+
+ID: NP_239959.1
+Number of nodes: 19
+Previous factors: 6
+New factors: 16
+Size of string: 179
+
+ID: NP_239936.1
+Number of nodes: 20
+Previous factors: 11
+New factors: 26
+Size of string: 353
+
+ID: NP_240154.1
+Number of nodes: 20
+Previous factors: 6
+New factors: 21
+Size of string: 350
+
+ID: NP_239913.1
+Number of nodes: 18
+Previous factors: 10
+New factors: 16
+Size of string: 145
+
+ID: NP_240231.1
+Number of nodes: 20
+Previous factors: 10
+New factors: 26
+Size of string: 334
+
+ID: NP_240254.1
+Number of nodes: 20
+Previous factors: 8
+New factors: 25
+Size of string: 439
+
+ID: NP_057965.1
+Number of nodes: 20
+Previous factors: 3
+New factors: 18
+Size of string: 200
+
+ID: NP_240022.1
+Number of nodes: 19
+Previous factors: 5
+New factors: 15
+Size of string: 177
+
+ID: NP_240045.1
+Number of nodes: 20
+Previous factors: 8
+New factors: 26
+Size of string: 418
+
+ID: NP_240068.1
+Number of nodes: 20
+Previous factors: 6
+New factors: 24
+Size of string: 1161
+
+ID: NP_239892.1
+Number of nodes: 20
+Previous factors: 5
+New factors: 20
+Size of string: 274
+
+ID: NP_240277.1
+Number of nodes: 19
+Previous factors: 9
+New factors: 21
+Size of string: 282
+
+ID: NP_240398.1
+Number of nodes: 20
+Previous factors: 7
+New factors: 26
+Size of string: 645
+
+ID: NP_240375.1
+Number of nodes: 20
+Previous factors: 6
+New factors: 27
+Size of string: 584
+
+ID: NP_240352.2
+Number of nodes: 19
+Previous factors: 3
+New factors: 20
+Size of string: 171
+
+ID: NP_239903.1
+Number of nodes: 18
+Previous factors: 4
+New factors: 14
+Size of string: 85
+
+ID: NP_239949.1
+Number of nodes: 20
+Previous factors: 5
+New factors: 21
+Size of string: 347
+
+ID: NP_240120.1
+Number of nodes: 20
+Previous factors: 6
+New factors: 23
+Size of string: 399
+
+ID: NP_240166.1
+Number of nodes: 20
+Previous factors: 6
+New factors: 27
+Size of string: 543
+
+ID: NP_239926.1
+Number of nodes: 20
+Previous factors: 10
+New factors: 22
+Size of string: 406
+
+ID: NP_240143.1
+Number of nodes: 20
+Previous factors: 6
+New factors: 20
+Size of string: 491
+
+ID: NP_240189.1
+Number of nodes: 19
+Previous factors: 4
+New factors: 21
+Size of string: 154
+
+ID: NP_240242.1
+Number of nodes: 20
+Previous factors: 10
+New factors: 23
+Size of string: 802
+
+ID: NP_240034.1
+Number of nodes: 20
+Previous factors: 5
+New factors: 15
+Size of string: 124
+
+ID: NP_239880.1
+Number of nodes: 18
+Previous factors: 4
+New factors: 16
+Size of string: 142
+
+ID: NP_240011.1
+Number of nodes: 20
+Previous factors: 6
+New factors: 26
+Size of string: 761
+
+ID: NP_240265.1
+Number of nodes: 20
+Previous factors: 6
+New factors: 22
+Size of string: 281
+
+ID: NP_240288.1
+Number of nodes: 19
+Previous factors: 6
+New factors: 23
+Size of string: 429
+
+ID: NP_240057.1
+Number of nodes: 20
+Previous factors: 6
+New factors: 22
+Size of string: 571
+
+ID: NP_240340.1
+Number of nodes: 20
+Previous factors: 5
+New factors: 16
+Size of string: 128
+
+ID: NP_240363.1
+Number of nodes: 16
+Previous factors: 5
+New factors: 12
+Size of string: 102
+
+ID: NP_240386.1
+Number of nodes: 20
+Previous factors: 9
+New factors: 25
+Size of string: 324
+
+ID: NP_239990.1
+Number of nodes: 20
+Previous factors: 6
+New factors: 20
+Size of string: 162
+
+ID: NP_239914.1
+Number of nodes: 20
+Previous factors: 6
+New factors: 16
+Size of string: 235
+
+ID: NP_239937.1
+Number of nodes: 20
+Previous factors: 7
+New factors: 18
+Size of string: 196
+
+ID: NP_240132.1
+Number of nodes: 18
+Previous factors: 5
+New factors: 14
+Size of string: 94
+
+ID: NP_240155.1
+Number of nodes: 19
+Previous factors: 5
+New factors: 12
+Size of string: 135
+
+ID: NP_240178.1
+Number of nodes: 20
+Previous factors: 5
+New factors: 20
+Size of string: 382
